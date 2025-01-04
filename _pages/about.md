@@ -41,10 +41,13 @@ Research Experience
 **Research Intern**   
 *Sep 2024 – Present*  
 
-- Developing **sensorimotor integration models** for advanced robotic manipulation tasks, focusing on **grasp planning and control**.  
-- Implementing **deep learning algorithms** to enhance robotic perception and adaptability in unstructured environments.  
-- Conducting experiments on **multi-modal sensor fusion** to improve object detection and grasp stability.  
-- Collaborating with a multidisciplinary team to design and validate real-world robotic solutions, achieving a [specific measurable impact, e.g., "20% improvement in grasp success rate"].  
+- Developed a UR10e grasping system designed to operate in uncertain and dynamic clustered environments. This project involves exploring and leveraging RTDE (Real-Time Data Exchange) as a motion planning tool to enhance system reliability and responsiveness.  
+- Enhanced the functionality of AnyGrasp, a state-of-the-art grasp generator, by integrating the Grasp-1Billion dataset with MetaGraspNet. This integration requires preprocessing and aligning the datasets to ensure consistency in their structure and arrangement, enabling seamless application and improved grasping performance.
+- Conducted simulations using NVIDIA Isaac Sim, replicating the grasping system in a simulated environment to evaluate its performance under various scenarios. Currently, I am exploring novel methods to transform task-agnostic grasp detectors into task-oriented systems. Potential approaches include leveraging Diffusion models or Reinforcement Learning (RL).
+- Planning to submit research findings and contributions to IROS 2025, focusing on innovative techniques and their applications in robotic grasping systems.    
+
+<img src="../images/Isaac_sim.png" alt="Isaac_sim" width="45%" height="45%" /><img src="../images/cluster_grasp.png" alt="cluster_grasp" width="45%" height="45%" />
+
 
 -----
 ### Grasp Lab, Zhejiang University  
@@ -57,7 +60,7 @@ Research Experience
 - **Established a robot motion control and path planning system.** It based on ROS, utilizes ROS's distributed communication architecture to connect and communicate between nodes. Motion control and path planning mainly use MoveIt API to write robot control modes and path planning, achieving multidimensional control of the robotic arm system.   
 - **Designed static and dynamic experiments for robot new object grasping.** Static experiments include parcel grasping experiments and daily necessities grasping experiments to verify the generalization ability of the constructed robot new object grasping system. Dynamic experiments involve grasping parcels moving on conveyor belts to verify their dynamic grasping capability. Through experimental verification, this article demonstrates that the robot learning-based unknown object grasping system constructed in this article exhibits good performance in both static and dynamic object grasping scenarios.   
 
-<img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="55%" height="55%" />
+<img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="80%" height="80%" />
 
 
 
@@ -74,7 +77,8 @@ Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
 
 *IEEE Robotics and Automation Letters(RA-L), 2024*  **[(Under Review)](https://mail.google.com/mail/u/0/?ui=2&ik=4037973d15&view=lg&permmsgid=msg-f:1817610031163563325)**
 
------   
+------   
+
 
 A paper for **IROS 2025** is being prepared now, and will be submitted before 1st March. 
 
