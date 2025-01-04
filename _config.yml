@@ -24,11 +24,11 @@ author:
   avatar           : "myprofile.png"
   name             : "Yicheng Ma"
   pronouns         : # example: "she/her"  
-  bio              : "Robotic perception and intelligent manipulation"
+  bio              : "Robotic perception and Intelligent manipulation"
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
-  email            : #"yichatma@gmail.com" 
+  email            :  "mailto:yichatma@gmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -43,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # "https://github.com/yichatani"
+  github           :  "https://github.com/yichatani"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
