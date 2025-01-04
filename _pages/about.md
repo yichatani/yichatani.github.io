@@ -41,6 +41,7 @@ Research Experience
 **Research Intern**   
 *Sep 2024 – Present*  
 
+**Topic: Robotic Manipulation System using Advanced Deep Learning Technique**
 - Developed a UR10e grasping system designed to operate in uncertain and dynamic clustered environments. This project involves exploring and leveraging RTDE (Real-Time Data Exchange) as a motion planning tool to enhance system reliability and responsiveness.  
 - Enhanced the functionality of AnyGrasp, a state-of-the-art grasp generator, by **integrating the Grasp-1Billion dataset with MetaGraspNet**. This integration requires preprocessing and aligning the datasets to ensure consistency in their structure and arrangement, enabling seamless application and improved grasping performance.
 - Conducted simulations using NVIDIA Isaac Sim, replicating the grasping system in a simulated environment to evaluate its performance under various scenarios. Currently, I am exploring novel methods to **transform task-agnostic grasp detectors into task-oriented systems**. Potential approaches include leveraging Diffusion models or Reinforcement Learning (RL).
