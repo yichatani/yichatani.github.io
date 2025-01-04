@@ -9,10 +9,11 @@ redirect_from:
 
 
 I hold a Bachelor’s degree in Optoelectronic Information Engineering from **Zhejiang University**, where I was an active member of the **[Grasp Lab](https://grasplab2022.github.io/)**. This experience allowed me to develop a strong foundation in robotics, with a particular focus on the perception of robotic grasping.
+
 Currently, I am pursuing a Master’s degree in Machine Learning at the School of Electrical and Electronic Engineering at **Nanyang Technological University** to further my academic and research aspirations in robotics. In parallel, I am deepening my practical expertise as an intern at [**ASTAR SIMTech ARM**](https://www.a-star.edu.sg/simtech/research/adaptive-robotics-and-mechatronics-(arm)), where I am engaged in advanced robotics research.
 
 
-Here is my [**CV**](../assets/CV.pdf).
+Here is my [CV](../assets/CV.pdf).
 
 
 [Email](mailto:yichatma@gmail.com)  /  [Github](https://github.com/yichatani)  /  [Wechat](../images/wechat.JPG)
@@ -23,18 +24,19 @@ Research Interests
 
 My research focuses on the intersection of robotic perception, control, and intelligent manipulation. Specifically, I am interested in:
 
-Developing sensorimotor models to integrate perception and control for robotic grasping.
-Exploring machine learning methods, such as deep learning and reinforcement learning, to enhance robotic decision-making and adaptability.
-Advancing techniques in robotic grasping and manipulation, including vision-based control and multi-modal sensor fusion, for real-world applications.
-
+- Developing sensorimotor models to integrate perception and control for robotic grasping.
+- Exploring machine learning methods, such as deep learning and reinforcement learning, to enhance robotic decision-making and adaptability.
+- Advancing techniques in robotic grasping and manipulation, including vision-based control and multi-modal sensor fusion, for real-world applications.
 
 
 Research Experience
 ------
 
 ### Research Intern
-**Grasp Lab, Zhejiang University, China**
-*Dec 2024 - Jan 2025*
+**Grasp Lab, Zhejiang University**  
+*Dec 2024 – Jan 2025*  
+
+
 
 
 ### Research Intern  
@@ -47,17 +49,27 @@ Research Experience
 - Collaborating with a multidisciplinary team to design and validate real-world robotic solutions, achieving a [specific measurable impact, e.g., "20% improvement in grasp success rate"].  
 
 
+
+
+
 ### Graduation Project
-**Grasp Lab, Zhejiang University, China**
+**Grasp Lab, Zhejiang University**  
 *Sep 2023 - Jun 2024*
+
+
 
 
 
 Publications
 ------
 
-![](../images/wechat)
-Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning
-Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
+<img src="../images/hybrid_figure1.png" alt="hybrid_figure1" width="35%" height="35%" />
 
+**Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning**  
+Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong  
+*IEEE Robotics and Automation Letters(RA-L), 2024*  **（Under Review)**
+
+-----
+
+A paper for **IROS 2025** is being prepared now, and will be submitted before 1st March. 
 
