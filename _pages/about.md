@@ -37,8 +37,6 @@ My research focuses on the intersection of **robotic perception, control, and in
 
 Research Experience
 ------
-
-
 ### ASTAR SIMTech ARM, Singapore
 **Research Intern**   
 *Sep 2024 – Present*  
@@ -49,8 +47,6 @@ Research Experience
 - Collaborating with a multidisciplinary team to design and validate real-world robotic solutions, achieving a [specific measurable impact, e.g., "20% improvement in grasp success rate"].  
 
 -----
-
-
 ### Grasp Lab, Zhejiang University  
 **Graduation Project and Thesis**    
 *Sep 2023 - Jun 2024*
@@ -59,8 +55,9 @@ Research Experience
 - **Constructed a geometric grasping module for grasp generation.** The method refers to the GSNet model architecture, using graspness to measure points in the point cloud suitable for grasping and extracting local and global high-dimensional point cloud features. Then, it extracts point-wise grasping degrees and subsequent viewpoint-wise grasping degrees, sets a graspness threshold to filter target point clouds, and generates grasps based on the filtered target point clouds, achieving static grasp generation.  
 - **Built a dynamic tracking module based on time-based graspness.** It refers to AnyGrasp, using multi-threaded high-dimensional feature vectors to represent each grasp in each frame, calculating cosine similarity to measure the similarity between high-dimensional feature vectors, and using this to measure the correspondence of temporal dimensions between grasps in frames, achieving continuous generation of dynamic tracking poses.   
 - **Established a robot motion control and path planning system.** It based on ROS, utilizes ROS's distributed communication architecture to connect and communicate between nodes. Motion control and path planning mainly use MoveIt API to write robot control modes and path planning, achieving multidimensional control of the robotic arm system.   
-- **Designed static and dynamic experiments for robot new object grasping.** Static experiments include parcel grasping experiments and daily necessities grasping experiments to verify the generalization ability of the constructed robot new object grasping system. Dynamic experiments involve grasping parcels moving on conveyor belts to verify their dynamic grasping capability. Through experimental verification, this article demonstrates that the robot learning-based unknown object grasping system constructed in this article exhibits good performance in both static and dynamic object grasping scenarios.
-<img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="45%" height="45%" />
+- **Designed static and dynamic experiments for robot new object grasping.** Static experiments include parcel grasping experiments and daily necessities grasping experiments to verify the generalization ability of the constructed robot new object grasping system. Dynamic experiments involve grasping parcels moving on conveyor belts to verify their dynamic grasping capability. Through experimental verification, this article demonstrates that the robot learning-based unknown object grasping system constructed in this article exhibits good performance in both static and dynamic object grasping scenarios.   
+
+<img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="55%" height="55%" />
 
 
 
@@ -71,13 +68,13 @@ Publications
 <img src="../images/hybrid_figure1.png" alt="hybrid_figure1" width="45%" height="45%" />
 <img src="../images/submisionInfo.png" alt="submissioninfo" width="45%" height="45%" />
 
-**Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning**
+Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning
 
 Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
 
 *IEEE Robotics and Automation Letters(RA-L), 2024*  **[(Under Review)](https://mail.google.com/mail/u/0/?ui=2&ik=4037973d15&view=lg&permmsgid=msg-f:1817610031163563325)**
 
------
+-----   
 
 A paper for **IROS 2025** is being prepared now, and will be submitted before 1st March. 
 
