@@ -63,11 +63,12 @@ Research Experience
 Publications
 ------
 
-<img src="../images/hybrid_figure1.png" alt="hybrid_figure1" width="35%" height="35%" />
+<img src="../images/hybrid_figure1.png" alt="hybrid_figure1" width="40%" height="40%" />
+<img src="../images/submisionInfo.png" alt="submissioninfo" width="40%" height="40%" />
 
 **Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning**  
 Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong  
-*IEEE Robotics and Automation Letters(RA-L), 2024*  **（Under Review)**
+*IEEE Robotics and Automation Letters(RA-L), 2024*  **（[Under Review, ](https://mail.google.com/mail/u/0/?ui=2&ik=4037973d15&view=lg&permmsgid=msg-f:1817610031163563325))**
 
 -----
 
