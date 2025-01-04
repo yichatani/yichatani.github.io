@@ -16,7 +16,7 @@ Here is my [CV](../assets/CV.pdf).
 
 ------
 Reach me by     
-------
+------      
 Email:  yichatma@gmail.com  
 
 Github:  [yichatani](https://github.com/yichatani)  
