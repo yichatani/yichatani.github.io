@@ -41,9 +41,9 @@ Research Experience
 *Sep 2024 – Present*  
 
 - Developed a UR10e grasping system designed to operate in uncertain and dynamic clustered environments. This project involves exploring and leveraging RTDE (Real-Time Data Exchange) as a motion planning tool to enhance system reliability and responsiveness.  
-- Enhanced the functionality of AnyGrasp, a state-of-the-art grasp generator, by integrating the Grasp-1Billion dataset with MetaGraspNet. This integration requires preprocessing and aligning the datasets to ensure consistency in their structure and arrangement, enabling seamless application and improved grasping performance.
-- Conducted simulations using NVIDIA Isaac Sim, replicating the grasping system in a simulated environment to evaluate its performance under various scenarios. Currently, I am exploring novel methods to transform task-agnostic grasp detectors into task-oriented systems. Potential approaches include leveraging Diffusion models or Reinforcement Learning (RL).
-- Planning to submit research findings and contributions to IROS 2025, focusing on innovative techniques and their applications in robotic grasping systems.    
+- Enhanced the functionality of AnyGrasp, a state-of-the-art grasp generator, by **integrating the Grasp-1Billion dataset with MetaGraspNet**. This integration requires preprocessing and aligning the datasets to ensure consistency in their structure and arrangement, enabling seamless application and improved grasping performance.
+- Conducted simulations using NVIDIA Isaac Sim, replicating the grasping system in a simulated environment to evaluate its performance under various scenarios. Currently, I am exploring novel methods to **transform task-agnostic grasp detectors into task-oriented systems**. Potential approaches include leveraging Diffusion models or Reinforcement Learning (RL).
+- Planning to submit research findings and contributions to **IROS 2025**, focusing on innovative techniques and their applications in robotic grasping systems.    
 
 <img src="../images/Isaac_sim.png" alt="Isaac_sim" width="45%" height="45%" /><img src="../images/cluster_grasp.png" alt="cluster_grasp" width="50%" height="50%" />
 
