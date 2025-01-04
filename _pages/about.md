@@ -15,6 +15,7 @@ Currently, I am pursuing a Master’s degree in Machine Learning at the School o
 Here is my [CV](../assets/CV.pdf).
 
 ------
+
 Reach me by
 ------    
 Email:  yichatma@gmail.com  
