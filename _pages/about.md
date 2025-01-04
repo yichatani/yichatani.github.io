@@ -14,6 +14,8 @@ Currently, I am pursuing a Master’s degree in Machine Learning at the School o
 
 Here is my [CV](../assets/CV.pdf).
 
+------
+
 Reach me
 ------
 **Email**:  yichatma@gmail.com  
@@ -36,11 +38,6 @@ My research focuses on the intersection of robotic perception, control, and inte
 Research Experience
 ------
 
-### Research Intern
-**Grasp Lab, Zhejiang University**  
-*Dec 2024 – Jan 2025*  
-
-
 
 
 ### Research Intern  
@@ -56,7 +53,7 @@ Research Experience
 
 
 
-### Graduation Project
+### Graduation Project and Research Intern
 **Grasp Lab, Zhejiang University**  
 *Sep 2023 - Jun 2024*
 
