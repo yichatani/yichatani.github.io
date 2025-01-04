@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Yicheng"
-author_profile: false
+title: "About me"
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
