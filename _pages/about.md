@@ -15,7 +15,7 @@ Currently, I am pursuing a Master’s degree in Machine Learning at the School o
 Here is my [CV](../assets/CV.pdf).
 
 ------
-Reach me by
+Reach me by     
 ------
 Email:  yichatma@gmail.com  
 
@@ -45,7 +45,7 @@ Research Experience
 - Conducted simulations using NVIDIA Isaac Sim, replicating the grasping system in a simulated environment to evaluate its performance under various scenarios. Currently, I am exploring novel methods to transform task-agnostic grasp detectors into task-oriented systems. Potential approaches include leveraging Diffusion models or Reinforcement Learning (RL).
 - Planning to submit research findings and contributions to IROS 2025, focusing on innovative techniques and their applications in robotic grasping systems.    
 
-<img src="../images/Isaac_sim.png" alt="Isaac_sim" width="45%" height="45%" /><img src="../images/cluster_grasp.png" alt="cluster_grasp" width="45%" height="45%" />
+<img src="../images/Isaac_sim.png" alt="Isaac_sim" width="45%" height="45%" /><img src="../images/cluster_grasp.png" alt="cluster_grasp" width="50%" height="50%" />
 
 
 -----
@@ -59,7 +59,7 @@ Research Experience
 - **Established a robot motion control and path planning system.** It based on ROS, utilizes ROS's distributed communication architecture to connect and communicate between nodes. Motion control and path planning mainly use MoveIt API to write robot control modes and path planning, achieving multidimensional control of the robotic arm system.   
 - **Designed static and dynamic experiments for robot new object grasping.** Static experiments include parcel grasping experiments and daily necessities grasping experiments to verify the generalization ability of the constructed robot new object grasping system. Dynamic experiments involve grasping parcels moving on conveyor belts to verify their dynamic grasping capability. Through experimental verification, this article demonstrates that the robot learning-based unknown object grasping system constructed in this article exhibits good performance in both static and dynamic object grasping scenarios.   
 
-<img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="80%" height="80%" />
+<img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="100%" height="100%" />
 
 
 
