@@ -76,7 +76,7 @@ Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gr
 
 Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
 
-*IEEE Robotics and Automation Letters(RA-L), 2024*  **[(Under Review)](https://mail.google.com/mail/u/0/?ui=2&ik=4037973d15&view=lg&permmsgid=msg-f:1817610031163563325)**
+*IEEE Robotics and Automation Letters(RA-L), 2024*  **(Under Review)**
 
 ------   
 
