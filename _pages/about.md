@@ -51,7 +51,7 @@ Research Experience
 -----
 ### Grasp Lab, Zhejiang University  
 **Graduation Project and Thesis**    
-*Sep 2023 - Jun 2024*
+*Sep 2023 - Jun 2024*  
 **Topic: Research on static and dynamic grasping of robots for warehousing and logistics applications**   
 - **Constructed a geometric grasping module for grasp generation.** The method refers to the GSNet model architecture, using graspness to measure points in the point cloud suitable for grasping and extracting local and global high-dimensional point cloud features. Then, it extracts point-wise grasping degrees and subsequent viewpoint-wise grasping degrees, sets a graspness threshold to filter target point clouds, and generates grasps based on the filtered target point clouds, achieving static grasp generation.  
 - **Built a dynamic tracking module based on time-based graspness.** It refers to AnyGrasp, using multi-threaded high-dimensional feature vectors to represent each grasp in each frame, calculating cosine similarity to measure the similarity between high-dimensional feature vectors, and using this to measure the correspondence of temporal dimensions between grasps in frames, achieving continuous generation of dynamic tracking poses.   
