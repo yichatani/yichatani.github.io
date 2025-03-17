@@ -25,7 +25,7 @@ Github:  [yichatani](https://github.com/yichatani)
 Wechat:  [Ani](../images/wechat.JPG)  
 
 
-Research Interests
+# Research Interests
 ------
 My research focuses on the intersection of **robotic perception, control, and intelligent manipulation**. Specifically, I am interested in:
 
@@ -34,7 +34,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 - Advancing techniques in robotic grasping and manipulation, including **vision-based control** and **multi-modal sensor fusion**, for real-world applications.
 
 
-Research Experience
+# Research Experience
 ------
 ### ASTAR SIMTech ARM, Singapore
 **Research Intern**   
@@ -63,7 +63,7 @@ Research Experience
 
 
 
-Publications
+# Publications
 ------
 
 <img src="../images/hybrid_figure1.png" alt="hybrid_figure1" width="45%" height="45%" />
@@ -78,5 +78,5 @@ Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
 ------   
 
 
-A paper for **IROS 2025** is being prepared now, and will be submitted before 1st March. 
+<!-- A paper for **IROS 2025** is being prepared now, and will be submitted before 1st March.  -->
 
