@@ -18,11 +18,11 @@ Currently, I am pursuing a Master’s degree in Machine Learning at the School o
 
 Reach me by
 ------    
-*<u>**Email:**</u>*  yichatma@gmail.com  
+***<u>Email:</u>***  yichatma@gmail.com  
 
-*<u>**Github:**</u>*  [yichatani](https://github.com/yichatani)  
+***<u>Github:</u>***  [yichatani](https://github.com/yichatani)  
 
-*<u>**Wechat:**</u>*  [Ani](../images/wechat.JPG)  
+***<u>Wechat:</u>***  [Ani](../images/wechat.JPG)  
 
 ------
 # Research Interests
