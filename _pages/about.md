@@ -18,24 +18,22 @@ Currently, I am pursuing a Master’s degree in Machine Learning at the School o
 
 Reach me by
 ------    
-Email:  yichatma@gmail.com  
+*<u>**Email:**</u>*  yichatma@gmail.com  
 
-Github:  [yichatani](https://github.com/yichatani)  
+*<u>**Github:**</u>*  [yichatani](https://github.com/yichatani)  
 
-Wechat:  [Ani](../images/wechat.JPG)  
+*<u>**Wechat:**</u>*  [Ani](../images/wechat.JPG)  
 
-
-# Research Interests
 ------
+# Research Interests
 My research focuses on the intersection of **robotic perception, control, and intelligent manipulation**. Specifically, I am interested in:
 
 - Developing sensorimotor models to integrate perception and control for robotic grasping.
 - **Exploring machine learning methods**, such as deep learning and reinforcement learning, to enhance robotic decision-making and adaptability.
 - Advancing techniques in robotic grasping and manipulation, including **vision-based control** and **multi-modal sensor fusion**, for real-world applications.
 
-
-# Research Experience
 ------
+# Research Experience
 ### ASTAR SIMTech ARM, Singapore
 **Research Intern**   
 *Sep 2024 – Present*  
@@ -62,10 +60,9 @@ My research focuses on the intersection of **robotic perception, control, and in
 
 
 
-
-# Publications
 ------
-
+# Publications
+<!-- ------ -->
 <img src="../images/hybrid_figure1.png" alt="hybrid_figure1" width="45%" height="45%" />
 <img src="../images/submisionInfo.png" alt="submissioninfo" width="45%" height="45%" />
 
