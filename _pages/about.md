@@ -15,8 +15,7 @@ Currently, I am pursuing a Master’s degree in Machine Learning at the School o
 <!-- Here is my [**CV**](../assets/CV.pdf). -->
 ------
 Reach me by:  
-------
-
+---
 ***<u>Email:</u>***  yichatma@gmail.com  
 
 ***<u>Github:</u>***  [yichatani](https://github.com/yichatani)  
