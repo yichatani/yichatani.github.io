@@ -61,7 +61,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 - **Established a robot motion control and path planning system.** It based on ROS, utilizes ROS's distributed communication architecture to connect and communicate between nodes. Motion control and path planning mainly use MoveIt API to write robot control modes and path planning, achieving multidimensional control of the robotic arm system.   
 - **Designed static and dynamic experiments for robot new object grasping.** Static experiments include parcel grasping experiments and daily necessities grasping experiments to verify the generalization ability of the constructed robot new object grasping system. Dynamic experiments involve grasping parcels moving on conveyor belts to verify their dynamic grasping capability. Through experimental verification, this article demonstrates that the robot learning-based unknown object grasping system constructed in this article exhibits good performance in both static and dynamic object grasping scenarios.   
 
-<img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="100%" height="100%" />
+  <img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="100%" height="100%" />
 
 
 <section id="publications">
