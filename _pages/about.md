@@ -48,7 +48,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 - Conducted simulations using NVIDIA Isaac Sim, replicating the grasping system in a simulated environment to evaluate its performance under various scenarios. Currently, I am exploring novel methods to **transform task-agnostic grasp detectors into task-oriented systems**. Potential approaches include leveraging Diffusion models or Reinforcement Learning (RL).
 - Planning to submit research findings and contributions to ***RA-L***, focusing on innovative techniques and their applications in robotic grasping systems.    
 
-<img src="../images/Isaac_sim.gif" alt="Isaac_sim" width="50%" height="50%" />        <img src="../images/cluttered.gif" alt="clutter_grasp" width="39%" height="39%" />
+  <img src="../images/Isaac_sim.gif" alt="Isaac_sim" width="50%" height="50%" />        <img src="../images/cluttered.gif" alt="clutter_grasp" width="39%" height="39%" />
 
 
 -----
