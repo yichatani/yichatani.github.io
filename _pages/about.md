@@ -56,8 +56,12 @@ My research focuses on the intersection of **robotic perception, control, and in
 <img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="100%" height="100%" />
 
 
+<section id="publications">
+    <span style="display: block; height: 1px;"></span>
+</section>
 
 ------
+
 # Publications
 <!-- ------ -->
 <img src="../images/hybrid_figure1.png" alt="hybrid_figure1" width="45%" height="45%" />
