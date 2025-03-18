@@ -21,6 +21,10 @@ Currently, I am pursuing a Master’s degree in **Machine Learning** at the Scho
 
 ***<u>Wechat:</u>***  [Ani](../images/wechat.JPG)  
 
+<section id="research_interests">
+    <span style="display: block; height: 1px;"></span>
+</section>
+
 ------
 # Research Interests
 My research focuses on the intersection of **robotic perception, control, and intelligent manipulation**. Specifically, I am interested in:
@@ -28,6 +32,10 @@ My research focuses on the intersection of **robotic perception, control, and in
 - Developing sensorimotor models to integrate perception and control for robotic grasping.
 - **Exploring machine learning methods**, such as deep learning and reinforcement learning, to enhance robotic decision-making and adaptability.
 - Advancing techniques in robotic grasping and manipulation, including **vision-based control** and **multi-modal sensor fusion**, for real-world applications.
+
+<section id="research_experience">
+    <span style="display: block; height: 1px;"></span>
+</section>
 
 ------
 # Research Experience
