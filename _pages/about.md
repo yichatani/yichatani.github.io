@@ -1,10 +1,8 @@
 ---
-layout: single
+layout: none
 permalink: /
-title: "Yicheng"
+title: "About me"
 author_profile: true
-header:
-  show_title: false
 redirect_from: 
   - /about/
   - /about.html
