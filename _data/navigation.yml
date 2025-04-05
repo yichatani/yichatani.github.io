@@ -9,8 +9,8 @@ main:
   - title: "<strong>About me</strong>"
     url: /#about_me
 
-  - title: "<strong>Reach me</strong>"
-    url: /#reach_me
+  # - title: "<strong>Reach me</strong>"
+  #   url: /#reach_me
 
   - title: "<strong>Research Interests</strong>"
     url: /#research_interests
