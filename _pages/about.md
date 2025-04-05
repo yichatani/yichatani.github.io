@@ -21,6 +21,10 @@ header:
   show_title: false
 --- -->
 
+<section id="about_me">
+    <span style="display: block; height: 1px;"></span>
+</section>
+
 # About me
 I'm Yicheng, a student passionate about AI and robotics. I hold a Bachelor's degree in Optoelectronic Information Engineering from **Zhejiang University**, where I was an active member of the **[Grasp Lab](https://grasplab2022.github.io/)**. This experience allowed me to develop a strong foundation in **robotics**, focusing on the perception of robotic grasping.
 
