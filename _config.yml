@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yicheng-Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Yicheng Ma"
-description              : &description "a master's student at NTU"
+description              : &description "a student passionate about AI and robotics"
 url                      : https://yichatani.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yichatani/yichatani.github.io"

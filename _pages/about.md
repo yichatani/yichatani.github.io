@@ -1,13 +1,25 @@
 ---
+layout: single
 permalink: /
-title: "About me"
+title: "Yicheng"
+author_profile: true
+header:
+  show_title: false
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<!-- ---
+permalink: /
+title: "Yicheng"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 header:
   show_title: false
----
+--- -->
 
 # About me
 I'm Yicheng, a student passionate about AI and robotics. I hold a Bachelor's degree in Optoelectronic Information Engineering from **Zhejiang University**, where I was an active member of the **[Grasp Lab](https://grasplab2022.github.io/)**. This experience allowed me to develop a strong foundation in **robotics**, focusing on the perception of robotic grasping.
