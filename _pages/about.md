@@ -1,8 +1,10 @@
 ---
-layout: none
+layout: single
 permalink: /
-title: "About me"
+title: ""
 author_profile: true
+header:
+  show_title: false
 redirect_from: 
   - /about/
   - /about.html
