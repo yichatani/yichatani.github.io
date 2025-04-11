@@ -100,6 +100,8 @@ My research focuses on the intersection of **robotic perception, control, and in
 
 Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
 
+<img src="../images/hybrid_figure1.png" alt="hybrid_figure1" width="48%" height="48%" />
+
 **Abstract—** An autonomous bin-picking system for grasping
 various cluttered packages can significantly benefit logistics by
 reducing manual labor and streamlining processing. The
@@ -127,8 +129,8 @@ compared to mono-functional grippers such as suction (53.9%)
 and Hand-E (39.3%). Real-world experiments further validated
 its practicality, highlighting its potential in logistics scenarios.
 
-<img src="../images/hybrid_figure1.png" alt="hybrid_figure1" width="26%" height="26%" />
-<img src="../images/24_118.png" alt="24_118" width="68%" height="68%" />
+
+<img src="../images/24_118.png" alt="24_118" width="100%" height="100%" />
 <!-- <img src="../images/submisionInfo.png" alt="submissioninfo" width="45%" height="45%" /> -->
 
 > This manuscript is being prepared for submission to *IEEE Robotics and Automation Letters(RA-L)* .
