@@ -35,14 +35,6 @@ I am pursuing a Master's degree in **Machine Learning** at the School of Electri
     <span style="display: block; height: 1px;"></span>
 </section> -->
 
-------
-# Reach me by:  
-***<u>Email:</u>***  yichatma@gmail.com  
-
-***<u>Github:</u>***  [yichatani](https://github.com/yichatani)  
-
-***<u>Wechat:</u>***  [Ani](../images/wechat.JPG)  
-
 <section id="research_interests">
     <span style="display: block; height: 1px;"></span>
 </section>
