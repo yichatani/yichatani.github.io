@@ -47,3 +47,15 @@ a:hover {
 .project-card:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
+
+.author__urls li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .author__urls li i {
+    min-width: 18px;
+  }
+  
