@@ -78,7 +78,7 @@ max-width: calc(100% - 240px);
 
 
 .author__avatar img {
-    max-width: 135px !important;
+    max-width: 133px !important;
     margin-bottom: 10px;
   }
   
@@ -88,7 +88,7 @@ max-width: calc(100% - 240px);
   }
   
   .main {
-    margin-left: 200px !important;
+    margin-left: 190px !important;
     max-width: calc(100% - 240px);
   }
   
