@@ -83,8 +83,8 @@ max-width: calc(100% - 240px);
   }
   
   .sidebar {
-    padding-left: 8px !important;
-    padding-right: 8px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
   
   .main {
