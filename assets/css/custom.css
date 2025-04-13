@@ -78,7 +78,6 @@ a:hover {
   }
   
   /* Avatar container + image */
-  /* 强制头像在 sidebar 中水平居中显示，并防止切边 */
 .author__avatar {
     display: flex;
     justify-content: center;
@@ -87,7 +86,7 @@ a:hover {
   }
   
   .author__avatar img {
-    max-width: 135px !important;
+    max-width: 132px !important;
     margin-bottom: 10px;
   }
   
