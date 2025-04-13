@@ -88,12 +88,14 @@ a:hover {
   
   .author__avatar img {
     width: 130px;
-    height: 130px;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     border: 3px solid #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     object-fit: cover;
+    display: block;
   }
+  
   
   
   
