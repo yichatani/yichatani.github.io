@@ -74,3 +74,21 @@ padding-right: 10px;
 margin-left: 240px !important;
 max-width: calc(100% - 240px);
 }
+
+
+
+.author__avatar img {
+    max-width: 120px !important;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  
+  .main {
+    margin-left: 220px !important;
+    max-width: calc(100% - 240px);
+  }
+  
