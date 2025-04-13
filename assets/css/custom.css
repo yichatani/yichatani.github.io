@@ -58,4 +58,19 @@ a:hover {
   .author__urls li i {
     min-width: 18px;
   }
-  
+
+.sidebar,
+.sidebar.sticky,
+.sidebar .author__avatar,
+.sidebar .author__content {
+max-width: 220px !important;
+width: 220px !important;
+flex-shrink: 0;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.main {
+margin-left: 240px !important;
+max-width: calc(100% - 240px);
+}
