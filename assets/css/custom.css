@@ -73,7 +73,7 @@ a:hover {
   
   /* Main content alignment */
   .main {
-    margin-left: 197px !important;
+    margin-left: 200px !important;
     max-width: calc(100% - 220px);
     padding-left: 5px;
     padding-right: 5px;
