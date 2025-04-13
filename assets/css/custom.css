@@ -75,6 +75,8 @@ a:hover {
   .main {
     margin-left: 195px !important;
     max-width: calc(100% - 220px);
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   /* Avatar container + image */
