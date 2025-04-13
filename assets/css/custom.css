@@ -47,7 +47,7 @@ a:hover {
 .project-card:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
-
+/* Contact icons layout */
 .author__urls li {
     display: flex;
     align-items: center;
@@ -58,37 +58,37 @@ a:hover {
   .author__urls li i {
     min-width: 18px;
   }
-
-.sidebar,
-.sidebar.sticky,
-.sidebar .author__avatar,
-.sidebar .author__content {
-max-width: 220px !important;
-width: 220px !important;
-flex-shrink: 0;
-padding-left: 10px;
-padding-right: 10px;
-}
-
-.main {
-margin-left: 240px !important;
-max-width: calc(100% - 240px);
-}
-
-
-
-.author__avatar img {
-    max-width: 130px !important;
-    margin-bottom: 10px;
+  
+  /* Sidebar layout */
+  .sidebar,
+  .sidebar.sticky,
+  .sidebar .author__avatar,
+  .sidebar .author__content {
+    max-width: 220px !important;
+    width: 220px !important;
+    flex-shrink: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
-  .sidebar {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-  }
-  
+  /* Main content alignment */
   .main {
     margin-left: 190px !important;
     max-width: calc(100% - 220px);
   }
+  
+  /* Avatar container + image */
+  .author__avatar {
+    width: 135px;
+    margin: 0 auto;
+  }
+  .author__avatar img {
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  
+  
   
