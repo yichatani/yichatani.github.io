@@ -9,14 +9,27 @@ body {
     padding: 0 20px;
 }
 
-.container, .page, .content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
+
+
+.content-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  padding: 32px 28px;
+  margin-bottom: 32px;
+  transition: box-shadow 0.2s ease;
+}
+
+
+.content-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
 
 h1, h2, h3, h4 {
     font-weight: 600;
@@ -59,25 +72,32 @@ a:hover {
     min-width: 18px;
   }
   
-  /* Sidebar layout */
-  .sidebar,
-  .sidebar.sticky,
-  .sidebar .author__avatar,
-  .sidebar .author__content {
-    max-width: 220px !important;
-    width: 220px !important;
-    flex-shrink: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  /* Main content alignment */
-  .main {
-    margin-left: 200px !important;
-    max-width: calc(100% - 220px);
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+/* Sidebar layout - 加卡片感、留边距 */
+.sidebar {
+  max-width: 220px !important;
+  width: 220px !important;
+  flex-shrink: 0;
+  padding: 20px 16px !important;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-left: 20px;
+  margin-top: 32px;
+}
+
+/* 控制头像/简介区域宽度，保持不变 */
+.sidebar .author__avatar,
+.sidebar .author__content {
+  width: 100% !important;
+}
+
+/* Main content alignment - 主体右移 + padding */
+.page {
+  margin-left: 260px !important;
+  max-width: calc(100% - 280px);
+  padding-left: 24px;
+  padding-right: 24px;
+}
   
   /* Avatar container + image */
 .author__avatar {
@@ -92,7 +112,7 @@ a:hover {
     margin-bottom: 10px;
   }
   
-  
+/* bundle exec jekyll serve --livereload */
   
   
   
