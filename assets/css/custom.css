@@ -2,7 +2,7 @@
 /* Modernized custom styles for yichatani.github.io */
 body {
     font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f5f7fa;
     color: #333;
     line-height: 1.7;
     font-size: 16px;
@@ -17,7 +17,8 @@ body {
 
 
 .content-card {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #fcfcfc;
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   padding: 32px 28px;
@@ -33,17 +34,18 @@ body {
 
 h1, h2, h3, h4 {
     font-weight: 600;
-    color: #222;
+    color: #1f2937;
     margin-top: 1.5em;
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
 }
 
 a {
-    color: #2a7ae2;
+    color: #2563eb;
     text-decoration: none;
 }
 
 a:hover {
-    color: #145ccf;
+    color: #1d4ed8;
     text-decoration: underline;
 }
 

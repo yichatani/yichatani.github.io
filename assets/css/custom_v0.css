@@ -1,0 +1,77 @@
+/* 全局色调优化 */
+body {
+    background-color: #f4f6f8; /* 更柔和的浅灰底色 */
+    color: #2b2b2b;            /* 稍微深一点点的文字 */
+  }
+  
+  /* 链接颜色更现代 */
+  a {
+    color: #1a73e8;
+  }
+  
+  a:hover {
+    color: #125ab3;
+  }
+  
+  /* 卡片更轻盈感 */
+  .content-card {
+    background-color: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+    padding: 28px 24px;
+    margin-bottom: 28px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  
+  .content-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+  }
+  
+  /* 标题统一美化 */
+  h1, h2, h3 {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #222;
+  }
+  
+  /* 更紧凑的侧栏留白处理 */
+  .sidebar {
+    margin-left: 16px;
+    margin-top: 24px;
+    padding: 20px 16px;
+    border-radius: 14px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+  
+  /* 主体区域更宽一点（视觉更均衡） */
+  .page {
+    margin-left: 260px !important;
+    max-width: calc(100% - 300px);
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  
+  /* 图标更协调 */
+  .author__urls li i {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* 手机适配增强 */
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      padding: 16px 14px !important;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.03);
+    }
+  
+    .page {
+      padding: 18px !important;
+    }
+  
+    .content-card {
+      padding: 20px 16px !important;
+    }
+  }
+  
