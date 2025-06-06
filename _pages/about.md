@@ -103,7 +103,7 @@ Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
 <img src="../images/24_118.png" alt="24_118" width="100%" height="100%" />
 <!-- <img src="../images/submisionInfo.png" alt="submissioninfo" width="45%" height="45%" /> -->
 
-> This work is being prepared for submission to ***IEEE Robotics and Automation Letters(RA-L)*** .
+> This work has been **accepted** to ***IEEE Robotics and Automation Letters(RA-L)***.
 
 ------   
 
