@@ -91,7 +91,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 <!-- ------ -->
 
 
-**Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning**
+**Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning** ***(Accepted)***
 
 Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
 
