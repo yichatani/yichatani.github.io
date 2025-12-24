@@ -84,7 +84,10 @@ My research focuses on the intersection of **robotic perception, control, and in
 - Conducted simulations using NVIDIA Isaac Sim, replicating the grasping system in a simulated environment and a real robot to evaluate its performance under various scenarios. Build a grasp-based data collector under NVIDIA Isaac Sim, which can collect various novel tasks to be used in imitation learning. The data collector is driven by existing AI models like RL agents and Anygrasp or pretested scripts. 
 - Based on the previous data collector and 3D Diffusion Policy, I design a **contrastive framework for 3D Diffusion-based robotic manipulation**. It can use both positive and negative samples to train, which lets it have the ability to learn from failure and provides a novel way to improve imitation learning models' performance.  
 
-  <video src="../images/Isaac_sim.mp4" width="50%" autoplay loop muted playsinline controls></video>        <video src="../images/cluttered.mp4" width="39%" autoplay loop muted playsinline controls></video>
+  <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:flex-start;">
+    <video src="../images/Isaac_sim.mp4" style="width:50%; min-width:280px; max-width:100%;" autoplay loop muted playsinline controls></video>
+    <video src="../images/cluttered.mp4" style="width:39%; min-width:240px; max-width:100%;" autoplay loop muted playsinline controls></video>
+  </div>
 
 -----
 -----
