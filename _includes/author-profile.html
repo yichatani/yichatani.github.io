@@ -32,10 +32,10 @@
       {% endif %}
       {% if author.email %}
         <li>
-          <a class="icon-link" href="mailto:{{ author.email }}" title="Email">
+          <button class="icon-link copy-email" type="button" data-email="{{ author.email }}" title="复制邮箱 {{ author.email }}" aria-label="复制邮箱 {{ author.email }}">
             <i class="fas fa-envelope" aria-hidden="true"></i>
             <span class="sr-only">Email</span>
-          </a>
+          </button>
         </li>
       {% endif %}
       {% if author.wechat %}
@@ -48,5 +48,31 @@
       {% endif %}
     </ul>
   </div>
+
+  <script>
+    (function () {
+      const buttons = document.querySelectorAll('.copy-email');
+      if (!buttons.length || !navigator.clipboard) return;
+      buttons.forEach((btn) => {
+        btn.addEventListener('click', async (e) => {
+          e.preventDefault();
+          const email = btn.dataset.email;
+          if (!email) return;
+          try {
+            await navigator.clipboard.writeText(email);
+            btn.classList.add('copied');
+            const originalTitle = btn.getAttribute('title');
+            btn.setAttribute('title', '已复制');
+            setTimeout(() => {
+              btn.classList.remove('copied');
+              if (originalTitle) btn.setAttribute('title', originalTitle);
+            }, 1200);
+          } catch (err) {
+            prompt('复制失败，请手动复制邮箱：', email);
+          }
+        });
+      });
+    })();
+  </script>
   
 </div>

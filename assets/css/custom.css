@@ -143,16 +143,27 @@ a:hover {
     width: 34px;
     height: 34px;
     line-height: 0;
+    box-sizing: border-box;
     border-radius: 8px;
     background: #f2f4f7;
     color: #1f2937;
     text-decoration: none;
     transition: background 0.2s ease, color 0.2s ease;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
   }
 
   .author__urls.icon-row .icon-link:hover {
     background: #e5e7eb;
     color: #111827;
+  }
+
+  .author__urls.icon-row .icon-link.copied {
+    background: #dbeafe;
+    color: #1d4ed8;
   }
 
   .author__urls.icon-row .icon-link i {
