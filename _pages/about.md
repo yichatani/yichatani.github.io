@@ -65,7 +65,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 - A skip-layer spatial aggregation pathway is proposed to extracts fine-grained geometric cues and transforms them into latent, keypoint-like spatial embeddings, preserving task-critical spatial structure in a flexible and policy-compatible form.
 - Our Gaussian Spotlight integrating both techniques and consistently achieves better performance in both simulation benchmarks and real-world experiments across various popular downstream generative policy.
 
-  <img src="../images/guassian_exp.gif" alt="guassian_exp" width="60%" height="60%" /> 
+  <video src="../images/guassian_exp.mp4" width="60%" autoplay loop muted playsinline controls></video> 
 
 ------
 
@@ -74,7 +74,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 - Our framework achieves a favorable balance between inference efficiency and policy performance, making one-step action generation practically feasible for real-time manipulation tasks.
 - The effectiveness of 3D-LOT Policy is evaluated on 8 simulations and 2 real-world robot tasks, demonstrating competitive success rates together with substantially improved inference speed compared to all other baselines.
 
-  <img src="../images/lot_exp.gif" alt="lot_exp" width="60%" height="60%" /> 
+  <video src="../images/lot_exp.mp4" width="60%" autoplay loop muted playsinline controls></video> 
 
 ------
 
@@ -84,7 +84,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 - Conducted simulations using NVIDIA Isaac Sim, replicating the grasping system in a simulated environment and a real robot to evaluate its performance under various scenarios. Build a grasp-based data collector under NVIDIA Isaac Sim, which can collect various novel tasks to be used in imitation learning. The data collector is driven by existing AI models like RL agents and Anygrasp or pretested scripts. 
 - Based on the previous data collector and 3D Diffusion Policy, I design a **contrastive framework for 3D Diffusion-based robotic manipulation**. It can use both positive and negative samples to train, which lets it have the ability to learn from failure and provides a novel way to improve imitation learning models' performance.  
 
-  <img src="../images/Isaac_sim.gif" alt="Isaac_sim" width="50%" height="50%" />        <img src="../images/cluttered.gif" alt="clutter_grasp" width="39%" height="39%" />
+  <video src="../images/Isaac_sim.mp4" width="50%" autoplay loop muted playsinline controls></video>        <video src="../images/cluttered.mp4" width="39%" autoplay loop muted playsinline controls></video>
 
 -----
 -----
@@ -97,7 +97,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 - **Established a robot motion control and path planning system.** It based on ROS, utilizes ROS's distributed communication architecture to connect and communicate between nodes. Motion control and path planning mainly use MoveIt API to write robot control modes and path planning, achieving multidimensional control of the robotic arm system.   
 - **Designed static and dynamic experiments for robot new object grasping.** Static experiments include parcel grasping experiments and daily necessities grasping experiments to verify the generalization ability of the constructed robot new object grasping system. Dynamic experiments involve grasping parcels moving on conveyor belts to verify their dynamic grasping capability. Through experimental verification, this article demonstrates that the robot learning-based unknown object grasping system constructed in this article exhibits good performance in both static and dynamic object grasping scenarios.   
 
-  <img src="../images/dynamic_grasp.gif" alt="dynamic_grasp" width="80%" height="80%" />
+  <video src="../images/dynamic_grasp.mp4" width="80%" autoplay loop muted playsinline controls></video>
 
 
 <section id="publications">
@@ -152,4 +152,3 @@ Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong†
 
 
 <!-- A paper for **IROS 2025** is being prepared now, and will be submitted before 1st March.  -->
-
