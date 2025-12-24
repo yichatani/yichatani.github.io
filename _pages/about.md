@@ -65,12 +65,14 @@ My research focuses on the intersection of **robotic perception, control, and in
 - A skip-layer spatial aggregation pathway is proposed to extracts fine-grained geometric cues and transforms them into latent, keypoint-like spatial embeddings, preserving task-critical spatial structure in a flexible and policy-compatible form.
 - Our Gaussian Spotlight integrating both techniques and consistently achieves better performance in both simulation benchmarks and real-world experiments across various popular downstream generative policy.
 
+  <img src="../images/guassian_exp.gif" alt="guassian_exp" width="60%" height="60%" /> 
+
 **Topic: 3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation**
 - We first propose LOT and introduce it to 3D point cloud–based flow-matching policies, enabling high-quality robotic action generation from limited demonstrations.
 - Our framework achieves a favorable balance between inference efficiency and policy performance, making one-step action generation practically feasible for real-time manipulation tasks.
 - The effectiveness of 3D-LOT Policy is evaluated on 8 simulations and 2 real-world robot tasks, demonstrating competitive success rates together with substantially improved inference speed compared to all other baselines.
 
-  <img src="../images/lot_exp.gif" alt="Isaac_sim" width="50%" height="50%" /> 
+  <img src="../images/lot_exp.gif" alt="lot_exp" width="60%" height="60%" /> 
 
 **Topic: Robotic Manipulation System using Advanced Deep Learning Technique**
 - Developed a UR10e grasping system designed to operate in uncertain and dynamic clustered environments. This project involves exploring and leveraging RTDE (Real-Time Data Exchange) as a motion planning tool to enhance system reliability and responsiveness.  
@@ -103,7 +105,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 <!-- ------ -->
 **Gaussian Spotlight: Enhancing Visuomotor Policy Learning via Latent Spatial Keypoint Embedding** ***(RAL Submitted)***
 
-Mohan Liu*, **Yicheng Ma***, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao, and Haiyue Zhu†
+Mohan Liu\*, **Yicheng Ma\***, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao, and Haiyue Zhu†
 
 <img src="../images/guassian_show.png" alt="guassian_show" width="55%" height="55%" />
 
@@ -115,9 +117,9 @@ Mohan Liu*, **Yicheng Ma***, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao, a
 
 **3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation** ***（ICRA Submitted）***
 
-**Yicheng Ma***, Mohan Liu*, Chang Su, Ruiteng Zhao, Zhiping Lin, and Haiyue Zhu†
+**Yicheng Ma\***, Mohan Liu\*, Chang Su, Ruiteng Zhao, Zhiping Lin, and Haiyue Zhu†
 
-<img src="../images/lot_clutter.png" alt="guassian_show" width="55%" height="55%" />
+<!-- <img src="../images/lot_clutter.png" alt="lot_clutter" width="55%" height="55%" /> -->
 
 **Abstract—** Real-time efficiency is critical for visuomotor policy learning, as any delay in action generation can accumulate over sequential control steps, cause instability, and degrade task performance, especially for fast-changing environments. However, traditional diffusion-based and flow-based policies usually rely on multi-step inference, as single-step variants often suffer from significantly reduced accuracy, which poses a trade-off between precision and efficiency. In this work, we introduce 3D-LOT Policy, a latent prototype-guided optimal transport~(OT) flow-matching framework for effective single-step action generation. Our approach encodes 3D observations into a compact latent space that preserves task-relevant spatial information and induces prototype structures to serve as anchors for policy learning. Next, prototype-consistent OT couplings are constructed to align stochastic noise with expert actions. As a result, the proposed coupling enforces smoother optimization paths during training and improves policy stability, which ultimately enables accurate single-step action generation. Our experiments on both simulation manipulation benchmarks and real-world robot tasks demonstrate that 3D-LOT achieves lower latency while maintaining or even surpassing baseline performance with multiple steps, offering a practical and efficient solution for fast and robust visuomotor policy learning.
 
@@ -135,7 +137,7 @@ Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong†
 **Abstract—** An autonomous bin-picking system for grasping various cluttered packages can significantly benefit logistics by reducing manual labor and streamlining processing. The system’s key challenges involve the gripper for confined spaces and grasp planning for unseen objects with varying materials, shapes, and sizes. To address these issues effectively, we propose a bin-picking system that includes a novel gripper and a corresponding vision-based grasp planning strategy. Firstly, a multi-mode hybrid gripper combining suction and pinch is developed to enhance versatility, as pinch alone fails for oversize objects and suction struggles with uneven surfaces. By integrating the suction cup into a slender finger and employing a flipping module and underactuated linkages, the compactness and dexterity are enhanced, ensuring the handling of packages near the bin walls or corners. Secondly, a model-free heuristic grasp planning framework based on the unseen object instance segmentation (UOIS) network is designed for grasping packages in a cluttered bin, which can be applied to hybrid grippers. Thirdly, we compared the prototype’s hardware characteristics with Hand-E and conducted grasping experiments to demonstrate the functionalities of the proposed hybrid gripper. Finally, the autonomous package bin-picking system was evaluated in a simulator, achieving a 71.4% success rate, compared to mono-functional grippers such as suction (53.9%) and Hand-E (39.3%). Real-world experiments further validated its practicality, highlighting its potential in logistics scenarios.
 
 
-<img src="../images/24_118.png" alt="24_118" width="100%" height="100%" />
+<img src="../images/24_118.png" alt="24_118" width="90%" height="90%" />
 <!-- <img src="../images/submisionInfo.png" alt="submissioninfo" width="45%" height="45%" /> -->
 
 <!-- > This work has been **accepted** to ***IEEE Robotics and Automation Letters(RA-L)***. -->
