@@ -152,8 +152,6 @@ a:hover {
     border: none;
     padding: 0;
     cursor: pointer;
-    -webkit-appearance: none;
-    appearance: none;
   }
 
   .author__urls.icon-row .icon-link:hover {

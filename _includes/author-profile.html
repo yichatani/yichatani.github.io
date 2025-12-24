@@ -32,10 +32,10 @@
       {% endif %}
       {% if author.email %}
         <li>
-          <button class="icon-link copy-email" type="button" data-email="{{ author.email }}" title="复制邮箱 {{ author.email }}" aria-label="复制邮箱 {{ author.email }}">
+          <a class="icon-link copy-email" href="mailto:{{ author.email }}" onclick="copyEmail(event, '{{ author.email }}')" title="复制邮箱 {{ author.email }}" aria-label="复制邮箱 {{ author.email }}">
             <i class="fas fa-envelope" aria-hidden="true"></i>
             <span class="sr-only">Email</span>
-          </button>
+          </a>
         </li>
       {% endif %}
       {% if author.wechat %}
@@ -51,27 +51,47 @@
 
   <script>
     (function () {
-      const buttons = document.querySelectorAll('.copy-email');
-      if (!buttons.length || !navigator.clipboard) return;
-      buttons.forEach((btn) => {
-        btn.addEventListener('click', async (e) => {
-          e.preventDefault();
-          const email = btn.dataset.email;
-          if (!email) return;
+      if (window.copyEmailInitialized) return;
+      window.copyEmailInitialized = true;
+
+      window.copyEmail = function (event, email) {
+        if (event) event.preventDefault();
+        var btn = event && event.currentTarget;
+        if (!email || !btn) return;
+
+        var markCopied = function () {
+          btn.classList.add('copied');
+          var originalTitle = btn.getAttribute('title');
+          btn.setAttribute('title', '已复制');
+          setTimeout(function () {
+            btn.classList.remove('copied');
+            if (originalTitle) btn.setAttribute('title', originalTitle);
+          }, 1200);
+        };
+
+        var fallback = function () {
+          var tempInput = document.createElement('input');
+          tempInput.value = email;
+          tempInput.setAttribute('readonly', '');
+          tempInput.style.position = 'absolute';
+          tempInput.style.left = '-9999px';
+          document.body.appendChild(tempInput);
+          tempInput.select();
           try {
-            await navigator.clipboard.writeText(email);
-            btn.classList.add('copied');
-            const originalTitle = btn.getAttribute('title');
-            btn.setAttribute('title', '已复制');
-            setTimeout(() => {
-              btn.classList.remove('copied');
-              if (originalTitle) btn.setAttribute('title', originalTitle);
-            }, 1200);
+            document.execCommand('copy');
+            markCopied();
           } catch (err) {
-            prompt('复制失败，请手动复制邮箱：', email);
+            window.prompt('复制邮箱：', email);
           }
-        });
-      });
+          document.body.removeChild(tempInput);
+        };
+
+        if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
+          navigator.clipboard.writeText(email).then(markCopied).catch(fallback);
+        } else {
+          fallback();
+        }
+      };
     })();
   </script>
   
