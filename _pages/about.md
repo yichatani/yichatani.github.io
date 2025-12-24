@@ -59,7 +59,19 @@ My research focuses on the intersection of **robotic perception, control, and in
 # Research Experience
 ### ASTAR SIMTech ARM, Singapore
 **Research Intern**   
-*Sep 2024 – Present*  
+*Sep 2024 – Dec 2025*  
+**Topic: Gaussian Spotlight: Enhancing Visuomotor Policy Learning via Latent Spatial Keypoint Embedding**
+- We introduce a differentiable Gaussian spatial attention field that generates smooth, state-conditioned spotlight masks to highlight manipulation-relevant regions, suppress background distractions.
+- A skip-layer spatial aggregation pathway is proposed to extracts fine-grained geometric cues and transforms them into latent, keypoint-like spatial embeddings, preserving task-critical spatial structure in a flexible and policy-compatible form.
+- Our Gaussian Spotlight integrating both techniques and consistently achieves better performance in both simulation benchmarks and real-world experiments across various popular downstream generative policy.
+
+**Topic: 3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation**
+- We first propose LOT and introduce it to 3D point cloud–based flow-matching policies, enabling high-quality robotic action generation from limited demonstrations.
+- Our framework achieves a favorable balance between inference efficiency and policy performance, making one-step action generation practically feasible for real-time manipulation tasks.
+- The effectiveness of 3D-LOT Policy is evaluated on 8 simulations and 2 real-world robot tasks, demonstrating competitive success rates together with substantially improved inference speed compared to all other baselines.
+
+  <img src="../images/lot_exp.gif" alt="Isaac_sim" width="50%" height="50%" /> 
+
 **Topic: Robotic Manipulation System using Advanced Deep Learning Technique**
 - Developed a UR10e grasping system designed to operate in uncertain and dynamic clustered environments. This project involves exploring and leveraging RTDE (Real-Time Data Exchange) as a motion planning tool to enhance system reliability and responsiveness.  
 - Enhanced the functionality of AnyGrasp, a state-of-the-art grasp generator, by **integrating the Grasp-1Billion dataset with MetaGraspNet**. This integration requires preprocessing and aligning the datasets to ensure consistency in their structure and arrangement, enabling seamless application and improved grasping performance.
@@ -89,11 +101,34 @@ My research focuses on the intersection of **robotic perception, control, and in
 {: .content-card}
 # Publications
 <!-- ------ -->
+**Gaussian Spotlight: Enhancing Visuomotor Policy Learning via Latent Spatial Keypoint Embedding** ***(RAL Submitted)***
 
+Mohan Liu*, **Yicheng Ma***, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao, and Haiyue Zhu†
 
-**Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning** ***(Accepted)***
+<img src="../images/guassian_show.png" alt="guassian_show" width="55%" height="55%" />
 
-Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
+**Abstract—** Generative visuomotor policies rely heavily on the conditioning representation to guide the synthesis of accurate and stable control sequences. Yet, standard visual encoders produce high-dimensional embeddings that often lose fine-grained spatial information while retaining substantial redundancy, weakening the policy’s ability to infer contact-relevant geometry and hindering both efficiency and performance. To address this bottleneck, we propose Gaussian Spotlight, designed to construct a latent spatial keypoint embedding that serves as a more precise and manipulation-aware conditioning signal. Gaussian Spotlight first generates a state-conditioned anisotropic Gaussian Attention Field that selectively amplifies spatial regions critical for interaction. It then transforms these enhanced regions into implicit, latent keypoint embeddings via an attention-guided skip-layer aggregation pathway, capturing precise geometric structures from early visual layers while preserving semantic context from deeper ones. The resulting conditioning representation is compact and spatially grounded, enabling diffusion- and flow-based visuomotor policies to sample high-quality actions with improved accuracy and data efficiency. Extensive experiments across diverse real-world manipulation tasks and simulation benchmarks demonstrate that Gaussian Spotlight consistently enhances policy performance and provides substantial gains over existing visual encoding strategies.
+
+<img src="../images/guassian_main.png" alt="guassian_show" width="70%" height="70%" />
+
+------
+
+**3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation** ***（ICRA Submitted）***
+
+**Yicheng Ma***, Mohan Liu*, Chang Su, Ruiteng Zhao, Zhiping Lin, and Haiyue Zhu†
+
+<img src="../images/lot_clutter.png" alt="guassian_show" width="55%" height="55%" />
+
+**Abstract—** Real-time efficiency is critical for visuomotor policy learning, as any delay in action generation can accumulate over sequential control steps, cause instability, and degrade task performance, especially for fast-changing environments. However, traditional diffusion-based and flow-based policies usually rely on multi-step inference, as single-step variants often suffer from significantly reduced accuracy, which poses a trade-off between precision and efficiency. In this work, we introduce 3D-LOT Policy, a latent prototype-guided optimal transport~(OT) flow-matching framework for effective single-step action generation. Our approach encodes 3D observations into a compact latent space that preserves task-relevant spatial information and induces prototype structures to serve as anchors for policy learning. Next, prototype-consistent OT couplings are constructed to align stochastic noise with expert actions. As a result, the proposed coupling enforces smoother optimization paths during training and improves policy stability, which ultimately enables accurate single-step action generation. Our experiments on both simulation manipulation benchmarks and real-world robot tasks demonstrate that 3D-LOT achieves lower latency while maintaining or even surpassing baseline performance with multiple steps, offering a practical and efficient solution for fast and robust visuomotor policy learning.
+
+<!-- <img src="../images/lot_clutter.png" alt="24_118" width="50%" height="50%" />  -->
+<img src="../images/lot_overview.png" alt="lot_overview" width="70%" height="70%" />
+
+------
+
+**Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning** ***(RAL Accepted)***
+
+Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong†
 
 <img src="../images/hybrid_figure.png" alt="hybrid_figure1" width="55%" height="55%" />
 
@@ -103,7 +138,7 @@ Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong
 <img src="../images/24_118.png" alt="24_118" width="100%" height="100%" />
 <!-- <img src="../images/submisionInfo.png" alt="submissioninfo" width="45%" height="45%" /> -->
 
-> This work has been **accepted** to ***IEEE Robotics and Automation Letters(RA-L)***.
+<!-- > This work has been **accepted** to ***IEEE Robotics and Automation Letters(RA-L)***. -->
 
 ------   
 
