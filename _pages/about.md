@@ -56,7 +56,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 </section>
 
 {: .content-card}
-# Research Experience
+# Research Experiences
 ## ASTAR SIMTech ARM, Singapore
 **Research Intern**   
 *Sep 2024 – Dec 2025*  
