@@ -57,7 +57,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 
 {: .content-card}
 # Research Experience
-### ASTAR SIMTech ARM, Singapore
+## ASTAR SIMTech ARM, Singapore
 **Research Intern**   
 *Sep 2024 – Dec 2025*  
 **Topic: Gaussian Spotlight: Enhancing Visuomotor Policy Learning via Latent Spatial Keypoint Embedding**
@@ -67,12 +67,16 @@ My research focuses on the intersection of **robotic perception, control, and in
 
   <img src="../images/guassian_exp.gif" alt="guassian_exp" width="60%" height="60%" /> 
 
+------
+
 **Topic: 3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation**
 - We first propose LOT and introduce it to 3D point cloud–based flow-matching policies, enabling high-quality robotic action generation from limited demonstrations.
 - Our framework achieves a favorable balance between inference efficiency and policy performance, making one-step action generation practically feasible for real-time manipulation tasks.
 - The effectiveness of 3D-LOT Policy is evaluated on 8 simulations and 2 real-world robot tasks, demonstrating competitive success rates together with substantially improved inference speed compared to all other baselines.
 
   <img src="../images/lot_exp.gif" alt="lot_exp" width="60%" height="60%" /> 
+
+------
 
 **Topic: Robotic Manipulation System using Advanced Deep Learning Technique**
 - Developed a UR10e grasping system designed to operate in uncertain and dynamic clustered environments. This project involves exploring and leveraging RTDE (Real-Time Data Exchange) as a motion planning tool to enhance system reliability and responsiveness.  
@@ -82,9 +86,9 @@ My research focuses on the intersection of **robotic perception, control, and in
 
   <img src="../images/Isaac_sim.gif" alt="Isaac_sim" width="50%" height="50%" />        <img src="../images/cluttered.gif" alt="clutter_grasp" width="39%" height="39%" />
 
-
 -----
-### Grasp Lab, Zhejiang University  
+-----
+## Grasp Lab, Zhejiang University  
 **Graduation Project and Thesis**    
 *Sep 2023 - Jun 2024*  
 **Topic: Research on static and dynamic grasping of robots for warehousing and logistics applications**   
@@ -103,7 +107,7 @@ My research focuses on the intersection of **robotic perception, control, and in
 {: .content-card}
 # Publications
 <!-- ------ -->
-**Gaussian Spotlight: Enhancing Visuomotor Policy Learning via Latent Spatial Keypoint Embedding** ***(RAL Submitted)***
+## Gaussian Spotlight: Enhancing Visuomotor Policy Learning via Latent Spatial Keypoint Embedding ***(RAL Submitted)***
 
 Mohan Liu\*, **Yicheng Ma\***, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao, and Haiyue Zhu†
 
@@ -114,8 +118,9 @@ Mohan Liu\*, **Yicheng Ma\***, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao,
 <img src="../images/guassian_main.png" alt="guassian_show" width="70%" height="70%" />
 
 ------
+------
 
-**3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation** ***（ICRA Submitted）***
+## 3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation ***(ICRA Submitted)***
 
 **Yicheng Ma\***, Mohan Liu\*, Chang Su, Ruiteng Zhao, Zhiping Lin, and Haiyue Zhu†
 
@@ -127,8 +132,9 @@ Mohan Liu\*, **Yicheng Ma\***, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao,
 <img src="../images/lot_overview.png" alt="lot_overview" width="70%" height="70%" />
 
 ------
+------
 
-**Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning** ***(RAL Accepted)***
+## Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning ***(RAL Accepted)***
 
 Zhian Su, **Yicheng Ma**, Haotian Guo, and Huixu Dong†
 
