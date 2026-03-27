@@ -1,44 +1,7 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-
 main:
-
-  - title: "<strong>About me</strong>"
+  - title: "About"
     url: /#about_me
-
-  # - title: "<strong>Reach me</strong>"
-  #   url: /#reach_me
-
-  - title: "<strong>Research Interests</strong>"
-    url: /#research_interests
-  
-  - title: "<strong>Research Experiences</strong>"
+  - title: "Research"
     url: /#research_experience
-
-  # - title: "<strong>Awards</strong>"
-  #   url: /#awards
-
-  - title: "<strong>Publications</strong>"
-    # url: /publications/
+  - title: "Publications"
     url: /#publications
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
