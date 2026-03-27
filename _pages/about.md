@@ -123,7 +123,7 @@ Mohan Liu\*, **Yicheng Ma\***, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao,
 ------
 ------
 
-## 3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation *(ICRA Submitted)*
+## 3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation *(IROS Submitted)*
 
 **Yicheng Ma\***, Mohan Liu\*, Chang Su, Ruiteng Zhao, Zhiping Lin, and Haiyue Zhu†
 
