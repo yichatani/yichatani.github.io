@@ -78,6 +78,30 @@ redirect_from:
 </div>
 
 
+<!-- Pub: Bin-picking -->
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="images/hybrid_figure.png" alt="Hybrid Gripper" />
+  </div>
+  <div class="pub-text">
+    <div class="pub-title">Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning</div>
+    <div class="pub-authors">
+      Zhian Su, <strong>Yicheng Ma</strong>, Haotian Guo, and Huixu Dong&dagger;
+    </div>
+    <div class="pub-venue">
+      IEEE Robotics and Automation Letters (RA-L)
+      <span class="venue-badge accepted">Accepted</span>
+    </div>
+    <details>
+      <summary class="pub-abstract-toggle">Abstract</summary>
+      <div class="pub-abstract">
+        An autonomous bin-picking system for grasping various cluttered packages can significantly benefit logistics by reducing manual labor and streamlining processing. We propose a bin-picking system that includes a novel multi-mode hybrid gripper combining suction and pinch, and a corresponding vision-based grasp planning strategy based on unseen object instance segmentation. The system was evaluated in simulation achieving a 71.4% success rate, compared to suction (53.9%) and Hand-E (39.3%). Real-world experiments further validated its practicality in logistics scenarios.
+      </div>
+    </details>
+  </div>
+</div>
+
+
 <!-- Pub: Gaussian Spotlight -->
 <div class="pub-entry">
   <div class="pub-thumb">
@@ -124,28 +148,7 @@ redirect_from:
   </div>
 </div>
 
-<!-- Pub: Bin-picking -->
-<div class="pub-entry">
-  <div class="pub-thumb">
-    <img src="images/hybrid_figure.png" alt="Hybrid Gripper" />
-  </div>
-  <div class="pub-text">
-    <div class="pub-title">Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning</div>
-    <div class="pub-authors">
-      Zhian Su, <strong>Yicheng Ma</strong>, Haotian Guo, and Huixu Dong&dagger;
-    </div>
-    <div class="pub-venue">
-      IEEE Robotics and Automation Letters (RA-L)
-      <span class="venue-badge accepted">Accepted</span>
-    </div>
-    <details>
-      <summary class="pub-abstract-toggle">Abstract</summary>
-      <div class="pub-abstract">
-        An autonomous bin-picking system for grasping various cluttered packages can significantly benefit logistics by reducing manual labor and streamlining processing. We propose a bin-picking system that includes a novel multi-mode hybrid gripper combining suction and pinch, and a corresponding vision-based grasp planning strategy based on unseen object instance segmentation. The system was evaluated in simulation achieving a 71.4% success rate, compared to suction (53.9%) and Hand-E (39.3%). Real-world experiments further validated its practicality in logistics scenarios.
-      </div>
-    </details>
-  </div>
-</div>
+
 
 <!-- ==================== RESEARCH EXPERIENCE ==================== -->
 <section id="research_experience"></section>
