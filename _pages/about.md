@@ -53,7 +53,32 @@ redirect_from:
   (* equal contribution, &dagger; corresponding author)
 </p>
 
-<!-- Pub 1: Gaussian Spotlight -->
+
+<!-- Pub: FD-VLA -->
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="images/FDVLA.png" alt="FD-VLA" />
+  </div>
+  <div class="pub-text">
+    <div class="pub-title">FD-VLA: Force-Distilled Vision-Language-Action Model for Contact-Rich Manipulation</div>
+    <div class="pub-authors">
+      Ruiteng Zhao, Wenshuo Wang, <strong>Yicheng Ma</strong>, Xiaocong Li, Francis E.H. Tay, Marcelo H. Ang Jr. and Haiyue Zhu&dagger;
+    </div>
+    <div class="pub-venue">
+      International Conference on Robotics and Automation (ICRA)
+      <span class="venue-badge accepted">Accepted</span>
+    </div>
+    <details>
+      <summary class="pub-abstract-toggle">Abstract</summary>
+      <div class="pub-abstract">
+        Force sensing is a crucial modality for Vision-Language-Action (VLA) frameworks, as it enables fine-grained perception and dexterous manipulation in contact-rich tasks. We present Force-Distilled VLA (FD-VLA), a novel framework that integrates force awareness into contact-rich manipulation without relying on physical force sensors. The core of our approach is a Force Distillation Module (FDM), which distills force by mapping a learnable query token, conditioned on visual observations and robot states, into a predicted force token aligned with the latent representation of actual force signals. During inference, this distilled force token is injected into the pretrained VLM, enabling force-aware reasoning while preserving the integrity of its vision-language semantics. This design provides two key benefits: first, it allows practical deployment across a wide range of robots that lack expensive or fragile force-torque sensors, thereby reducing hardware cost and complexity; second, the FDM introduces an additional force-vision-state fusion prior to the VLM, which improves cross-modal alignment and enhances perception-action robustness in contact-rich scenarios. Surprisingly, our physical experiments show that the distilled force token outperforms direct sensor force measurements as well as other baselines, which highlights the effectiveness of this force-distilled VLA approach.
+      </div>
+    </details>
+  </div>
+</div>
+
+
+<!-- Pub: Gaussian Spotlight -->
 <div class="pub-entry">
   <div class="pub-thumb">
     <img src="images/guassian_exp.gif" alt="Gaussian Spotlight" />
@@ -76,7 +101,7 @@ redirect_from:
   </div>
 </div>
 
-<!-- Pub 2: 3D-LOT -->
+<!-- Pub: 3D-LOT -->
 <div class="pub-entry">
   <div class="pub-thumb">
     <img src="images/lot_exp.gif" alt="3D-LOT Policy" />
@@ -99,7 +124,7 @@ redirect_from:
   </div>
 </div>
 
-<!-- Pub 3: Bin-picking -->
+<!-- Pub: Bin-picking -->
 <div class="pub-entry">
   <div class="pub-thumb">
     <img src="images/hybrid_figure.png" alt="Hybrid Gripper" />
