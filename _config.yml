@@ -21,7 +21,7 @@ repository               : "yichatani/yichatani.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me1.jpg"
+  avatar           : "me2.jpg"
   name             : "Yicheng Ma"
   pronouns         : # example: "she/her"  
   bio              : "<strong>Research in Robot Learning (Manipulation)</strong>"

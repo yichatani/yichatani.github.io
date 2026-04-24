@@ -12,16 +12,16 @@ redirect_from:
 
 <!-- ==================== PROFILE HEADER ==================== -->
 <div class="profile-header">
-  <img src="images/me1.jpg" alt="Yicheng Ma" />
+  <img src="images/me2.jpg" alt="Yicheng Ma" />
   <div class="profile-info">
     <h1>Yicheng Ma</h1>
     <p class="profile-subtitle">
-      Master's student in Machine Learning at <strong>Nanyang Technological University</strong>.<br>
+      M.Sc. in Machine Learning at <strong>Nanyang Technological University</strong>.<br>
       <!-- Research Intern at <a href="https://www.a-star.edu.sg/simtech/research/adaptive-robotics-and-mechatronics-(arm)">A*STAR SIMTech ARM</a>, Singapore.<br> -->
       B.Eng. in Optoelectronic Information Engineering, <strong>Zhejiang University</strong>.
     </p>
     <div class="profile-links">
-      <span class="email-text">Email: yichatma@gmail.com</span>
+      <span class="email-text">Email: yichatma [at] gmail [dot] com</span>
       <span class="sep">/</span>
       <a href="https://github.com/yichatani" target="_blank" class="profile-link-icon"><i class="fab fa-github"></i><span>GitHub</span></a>
     </div>
@@ -41,7 +41,7 @@ redirect_from:
 <div class="interest-tags">
   <span class="tag">Robot Learning</span>
   <span class="tag">Robot Manipulation</span>
-  <span class="tag">Data-efficient Robot Learning Methods</span>
+  <span class="tag">Sample-efficient Robot Learning Methods</span>
 </div>
 
 <!-- ==================== PUBLICATIONS ==================== -->
@@ -102,6 +102,54 @@ redirect_from:
 </div>
 
 
+<!-- Pub: SID -->
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="images/sid_exp.gif" alt="SID" />
+  </div>
+  <div class="pub-text">
+    <div class="pub-title">SID: Sliding into Distribution for Robust Few-Demonstration Manipulation</div>
+    <div class="pub-authors">
+      <strong>Yicheng Ma*</strong>, Wei Yu*, Zhian Su, Xidan Zhang, and Huixu Dong&dagger;
+    </div>
+    <div class="pub-venue">
+      <!-- -->
+      <span class="venue-badge submitted">Submitted</span>
+    </div>
+    <details>
+      <summary class="pub-abstract-toggle">Abstract</summary>
+      <div class="pub-abstract">
+        Generalizing robotic manipulation across object poses, viewpoints, and dynamic disturbances is difficult, especially with only a few demonstrations. End-to-end visuomotor policies are expressive but data-hungry, while planning and optimization satisfy explicit constraints but do not directly capture the interaction strategies demonstrated by humans. We propose Sliding into Distribution (SID), a structured framework that learns an object-centric motion field from canonicalized demonstrations to iteratively slide the system toward the demonstrated manifold and into the reliable operating region of a lightweight egocentric execution policy, mitigating out-of-distribution (OOD) execution. The motion field provides large corrective motions when far from the demonstration manifold and naturally vanishes near convergence, enabling robust reaching under substantial pose and viewpoint shifts. Within the reached regime, an egocentric policy trained with conditioned flow matching performs task-specific manipulation, supported by kinematically consistent point-cloud reprojection augmentation that preserves action–observation consistency. Across six real-world tasks, SID achieves approximately 90% success under OOD initializations with only two demonstrations, with under a 10% drop under distractors and external disturbances. Overall, SID provides a new paradigm for few-shot manipulation: explicitly managing distribution shift via online distribution recovery.
+      </div>
+    </details>
+  </div>
+</div>
+
+
+<!-- Pub: ForceForm -->
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="images/forceform.png" alt="ForceForm" />
+  </div>
+  <div class="pub-text">
+    <div class="pub-title">ForceForm: Robotic Gripper Generation via Differentiable Force Closure Optimization</div>
+    <div class="pub-authors">
+      Haoran Huang, Ziyi Zheng, <strong>Yicheng Ma</strong>, Zhaohui Lin,  I-Ming Chen, and Huixu Dong&dagger;
+    </div>
+    <div class="pub-venue">
+      <!-- IEEE/ASME Transactions on Mechatronics -->
+      <span class="venue-badge submitted">Submitted</span>
+    </div>
+    <details>
+      <summary class="pub-abstract-toggle">Abstract</summary>
+      <div class="pub-abstract">
+        Reliable manipulation in industrial settings critically depends on the geometric structure of task-specific robotic grippers. However, conventional manual design is prohibitively expensive and relies heavily on human experience, while current automated methods often lack strict physical constraints, leading to unreliable grasping. To address these challenges, we propose ForceForm, the first framework to leverage differentiable force-closure optimization for adaptive gripper geometry generation, enabling the systematic synthesis of highly stable designs. First, both objects and grippers are represented using truncated signed distance functions (TSDF) to enable fully differentiable contact kinematics. Second, we devise a composite energy function via a differentiable quadratic program. This representation unifies and generalizes both normal and shear (friction) stresses, allowing the direct optimization of robust wrench-space force closure. Third, to navigate the non-convex design landscape, MALA++, an enhanced Metropolis-Adjusted Langevin Algorithm, is introduced to successfully escape local minima and promote topological diversity. Extensive experiments demonstrate that our pipeline achieves 91.6% grasp success, 84.8% stability, and 84.9% robustness across thousands of object instances, outperforming the state-of-the-art Fit2Form baseline by 6.1%, 9.0%, and 11.2%, respectively. By bridging physically grounded modeling with generative AI, ForceForm provides promising pathways for future scalable and reliable gripper design.
+      </div>
+    </details>
+  </div>
+</div>
+
+
 <!-- Pub: Gaussian Spotlight -->
 <div class="pub-entry">
   <div class="pub-thumb">
@@ -113,7 +161,7 @@ redirect_from:
       Mohan Liu*, <strong>Yicheng Ma*</strong>, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao, and Haiyue Zhu&dagger;
     </div>
     <div class="pub-venue">
-      IEEE Robotics and Automation Letters (RA-L)
+      <!-- IEEE Robotics and Automation Letters (RA-L) -->
       <span class="venue-badge submitted">Submitted</span>
     </div>
     <details>
@@ -136,7 +184,7 @@ redirect_from:
       <strong>Yicheng Ma*</strong>, Mohan Liu*, Chang Su, Ruiteng Zhao, Zhiping Lin, and Haiyue Zhu&dagger;
     </div>
     <div class="pub-venue">
-      IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+      <!-- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -->
       <span class="venue-badge submitted">Submitted</span>
     </div>
     <details>
