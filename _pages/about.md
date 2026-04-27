@@ -54,6 +54,30 @@ redirect_from:
 </p>
 
 
+<!-- Pub: SID -->
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="images/sid_exp.gif" alt="SID" />
+  </div>
+  <div class="pub-text">
+    <div class="pub-title">SID: Sliding into Distribution for Robust Few-Demonstration Manipulation</div>
+    <div class="pub-authors">
+      <strong>Yicheng Ma*</strong>, Wei Yu*, Zhian Su, Xidan Zhang, and Huixu Dong&dagger;
+    </div>
+    <div class="pub-venue">
+      Robotics: Science and Systems
+      <span class="venue-badge accepted">Accepted</span>
+    </div>
+    <details>
+      <summary class="pub-abstract-toggle">Abstract</summary>
+      <div class="pub-abstract">
+        Generalizing robotic manipulation across object poses, viewpoints, and dynamic disturbances is difficult, especially with only a few demonstrations. End-to-end visuomotor policies are expressive but data-hungry, while planning and optimization satisfy explicit constraints but do not directly capture the interaction strategies demonstrated by humans. We propose Sliding into Distribution (SID), a structured framework that learns an object-centric motion field from canonicalized demonstrations to iteratively slide the system toward the demonstrated manifold and into the reliable operating region of a lightweight egocentric execution policy, mitigating out-of-distribution (OOD) execution. The motion field provides large corrective motions when far from the demonstration manifold and naturally vanishes near convergence, enabling robust reaching under substantial pose and viewpoint shifts. Within the reached regime, an egocentric policy trained with conditioned flow matching performs task-specific manipulation, supported by kinematically consistent point-cloud reprojection augmentation that preserves action–observation consistency. Across six real-world tasks, SID achieves approximately 90% success under OOD initializations with only two demonstrations, with under a 10% drop under distractors and external disturbances. Overall, SID provides a new paradigm for few-shot manipulation: explicitly managing distribution shift via online distribution recovery.
+      </div>
+    </details>
+  </div>
+</div>
+
+
 <!-- Pub: FD-VLA -->
 <div class="pub-entry">
   <div class="pub-thumb">
@@ -96,30 +120,6 @@ redirect_from:
       <summary class="pub-abstract-toggle">Abstract</summary>
       <div class="pub-abstract">
         An autonomous bin-picking system for grasping various cluttered packages can significantly benefit logistics by reducing manual labor and streamlining processing. We propose a bin-picking system that includes a novel multi-mode hybrid gripper combining suction and pinch, and a corresponding vision-based grasp planning strategy based on unseen object instance segmentation. The system was evaluated in simulation achieving a 71.4% success rate, compared to suction (53.9%) and Hand-E (39.3%). Real-world experiments further validated its practicality in logistics scenarios.
-      </div>
-    </details>
-  </div>
-</div>
-
-
-<!-- Pub: SID -->
-<div class="pub-entry">
-  <div class="pub-thumb">
-    <img src="images/sid_exp.gif" alt="SID" />
-  </div>
-  <div class="pub-text">
-    <div class="pub-title">SID: Sliding into Distribution for Robust Few-Demonstration Manipulation</div>
-    <div class="pub-authors">
-      <strong>Yicheng Ma*</strong>, Wei Yu*, Zhian Su, Xidan Zhang, and Huixu Dong&dagger;
-    </div>
-    <div class="pub-venue">
-      <!-- -->
-      <span class="venue-badge submitted">Submitted</span>
-    </div>
-    <details>
-      <summary class="pub-abstract-toggle">Abstract</summary>
-      <div class="pub-abstract">
-        Generalizing robotic manipulation across object poses, viewpoints, and dynamic disturbances is difficult, especially with only a few demonstrations. End-to-end visuomotor policies are expressive but data-hungry, while planning and optimization satisfy explicit constraints but do not directly capture the interaction strategies demonstrated by humans. We propose Sliding into Distribution (SID), a structured framework that learns an object-centric motion field from canonicalized demonstrations to iteratively slide the system toward the demonstrated manifold and into the reliable operating region of a lightweight egocentric execution policy, mitigating out-of-distribution (OOD) execution. The motion field provides large corrective motions when far from the demonstration manifold and naturally vanishes near convergence, enabling robust reaching under substantial pose and viewpoint shifts. Within the reached regime, an egocentric policy trained with conditioned flow matching performs task-specific manipulation, supported by kinematically consistent point-cloud reprojection augmentation that preserves action–observation consistency. Across six real-world tasks, SID achieves approximately 90% success under OOD initializations with only two demonstrations, with under a 10% drop under distractors and external disturbances. Overall, SID provides a new paradigm for few-shot manipulation: explicitly managing distribution shift via online distribution recovery.
       </div>
     </details>
   </div>
