@@ -55,7 +55,8 @@ redirect_from:
     (* equal contribution, &dagger; corresponding author)
   </p>
 
-  <h3 class="pub-subheading">Published / Accepted</h3>
+  <!-- <h3 class="pub-subheading">Published / Accepted</h3> -->
+  <h3 class="pub-subheading pub-subheading-accepted">Published / Accepted</h3>
 
   <!-- Pub: SID -->
   <div class="pub-entry">
@@ -137,7 +138,7 @@ redirect_from:
     </div>
   </div>
 
-  <h3 class="pub-subheading">Manuscripts Under Review</h3>
+  <h3 class="pub-subheading pub-subheading-review">Manuscripts Under Review</h3>
 
   <!-- Pub: ForceForm -->
   <div class="pub-entry">

@@ -646,3 +646,33 @@ blockquote {
 .pub-entry.manuscript {
   opacity: 0.96;
 }
+
+#publications .pub-subheading {
+  font-size: 0.9em;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 34px 0 18px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border);
+  line-height: 1.3;
+}
+
+#publications .pub-subheading:first-of-type {
+  margin-top: 18px;
+}
+
+#publications .pub-subheading-accepted {
+  color: #4a4a6a;
+}
+
+#publications .pub-subheading-accepted::after {
+  background: #d1fae5;
+}
+
+#publications .pub-subheading-review {
+  color: #4a4a6a;
+}
+
+#publications .pub-subheading-review::after {
+  background: var(--color-tag-bg);
+}
