@@ -47,166 +47,168 @@ redirect_from:
 </div>
 
 <!-- ==================== PUBLICATIONS ==================== -->
-<section id="publications"></section>
+<section id="publications">
 
-<h2 class="section-heading">Publications</h2>
+  <h2 class="section-heading">Publications</h2>
 
-<p style="font-size: 0.85em; color: var(--color-text-muted, #8c8ca1); margin-bottom: 20px;">
-  (* equal contribution, &dagger; corresponding author)
-</p>
+  <p style="font-size: 0.85em; color: var(--color-text-muted, #8c8ca1); margin-bottom: 20px;">
+    (* equal contribution, &dagger; corresponding author)
+  </p>
 
+  <h3 class="pub-subheading">Published / Accepted</h3>
 
-<!-- Pub: SID -->
-<div class="pub-entry">
-  <div class="pub-thumb">
-    <img src="images/sid_exp.gif" alt="SID" />
-  </div>
-  <div class="pub-text">
-    <div class="pub-title">SID: Sliding into Distribution for Robust Few-Demonstration Manipulation</div>
-    <div class="pub-authors">
-      <strong>Yicheng Ma*</strong>, Wei Yu*, Zhian Su, Xidan Zhang, and Huixu Dong&dagger;
+  <!-- Pub: SID -->
+  <div class="pub-entry">
+    <div class="pub-thumb">
+      <img src="images/sid_exp.gif" alt="SID" />
     </div>
-    <div class="pub-venue">
-      Robotics: Science and Systems (RSS), 2026
-      <span class="venue-badge accepted">Accepted</span>
-    </div>
-    <div class="pub-links">
-      <a class="pub-link-button" href="https://arxiv.org/abs/2605.13428" target="_blank" rel="noopener noreferrer">Paper</a>
-    </div>
-    <details>
-      <summary class="pub-abstract-toggle">Abstract</summary>
-      <div class="pub-abstract">
-        Generalizing robotic manipulation across object poses, viewpoints, and dynamic disturbances is difficult, especially with only a few demonstrations. End-to-end visuomotor policies are expressive but data-hungry, while planning and optimization satisfy explicit constraints but do not directly capture the interaction strategies demonstrated by humans. We propose Sliding into Distribution (SID), a structured framework that learns an object-centric motion field from canonicalized demonstrations to iteratively slide the system toward the demonstrated manifold and into the reliable operating region of a lightweight egocentric execution policy, mitigating out-of-distribution (OOD) execution. The motion field provides large corrective motions when far from the demonstration manifold and naturally vanishes near convergence, enabling robust reaching under substantial pose and viewpoint shifts. Within the reached regime, an egocentric policy trained with conditioned flow matching performs task-specific manipulation, supported by kinematically consistent point-cloud reprojection augmentation that preserves action–observation consistency. Across six real-world tasks, SID achieves approximately 90% success under OOD initializations with only two demonstrations, with under a 10% drop under distractors and external disturbances. Overall, SID provides a new paradigm for few-shot manipulation: explicitly managing distribution shift via online distribution recovery.
+    <div class="pub-text">
+      <div class="pub-title">SID: Sliding into Distribution for Robust Few-Demonstration Manipulation</div>
+      <div class="pub-authors">
+        <strong>Yicheng Ma*</strong>, Wei Yu*, Zhian Su, Xidan Zhang, and Huixu Dong&dagger;
       </div>
-    </details>
-  </div>
-</div>
-
-
-<!-- Pub: FD-VLA -->
-<div class="pub-entry">
-  <div class="pub-thumb">
-    <img src="images/FDVLA.png" alt="FD-VLA" />
-  </div>
-  <div class="pub-text">
-    <div class="pub-title">FD-VLA: Force-Distilled Vision-Language-Action Model for Contact-Rich Manipulation</div>
-    <div class="pub-authors">
-      Ruiteng Zhao, Wenshuo Wang, <strong>Yicheng Ma</strong>, Xiaocong Li, Francis E.H. Tay, Marcelo H. Ang Jr. and Haiyue Zhu&dagger;
-    </div>
-    <div class="pub-venue">
-      International Conference on Robotics and Automation (ICRA), 2026
-      <span class="venue-badge accepted">Accepted</span>
-    </div>
-    <div class="pub-links">
-      <a class="pub-link-button" href="https://arxiv.org/abs/2602.02142" target="_blank" rel="noopener noreferrer">Paper</a>
-    </div>
-    <details>
-      <summary class="pub-abstract-toggle">Abstract</summary>
-      <div class="pub-abstract">
-        Force sensing is a crucial modality for Vision-Language-Action (VLA) frameworks, as it enables fine-grained perception and dexterous manipulation in contact-rich tasks. We present Force-Distilled VLA (FD-VLA), a novel framework that integrates force awareness into contact-rich manipulation without relying on physical force sensors. The core of our approach is a Force Distillation Module (FDM), which distills force by mapping a learnable query token, conditioned on visual observations and robot states, into a predicted force token aligned with the latent representation of actual force signals. During inference, this distilled force token is injected into the pretrained VLM, enabling force-aware reasoning while preserving the integrity of its vision-language semantics. This design provides two key benefits: first, it allows practical deployment across a wide range of robots that lack expensive or fragile force-torque sensors, thereby reducing hardware cost and complexity; second, the FDM introduces an additional force-vision-state fusion prior to the VLM, which improves cross-modal alignment and enhances perception-action robustness in contact-rich scenarios. Surprisingly, our physical experiments show that the distilled force token outperforms direct sensor force measurements as well as other baselines, which highlights the effectiveness of this force-distilled VLA approach.
+      <div class="pub-venue">
+        Robotics: Science and Systems (RSS), 2026
+        <span class="venue-badge accepted">Accepted</span>
       </div>
-    </details>
-  </div>
-</div>
-
-
-<!-- Pub: Bin-picking -->
-<div class="pub-entry">
-  <div class="pub-thumb">
-    <img src="images/hybrid_figure.png" alt="Hybrid Gripper" />
-  </div>
-  <div class="pub-text">
-    <div class="pub-title">Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning</div>
-    <div class="pub-authors">
-      Zhian Su, <strong>Yicheng Ma</strong>, Haotian Guo, and Huixu Dong&dagger;
-    </div>
-    <div class="pub-venue">
-      IEEE Robotics and Automation Letters (RA-L), 2025
-      <span class="venue-badge accepted">Accepted</span>
-    </div>
-    <div class="pub-links">
-      <a class="pub-link-button" href="https://ieeexplore.ieee.org/document/11063337" target="_blank" rel="noopener noreferrer">Paper</a>
-    </div>
-    <details>
-      <summary class="pub-abstract-toggle">Abstract</summary>
-      <div class="pub-abstract">
-        An autonomous bin-picking system for grasping various cluttered packages can significantly benefit logistics by reducing manual labor and streamlining processing. We propose a bin-picking system that includes a novel multi-mode hybrid gripper combining suction and pinch, and a corresponding vision-based grasp planning strategy based on unseen object instance segmentation. The system was evaluated in simulation achieving a 71.4% success rate, compared to suction (53.9%) and Hand-E (39.3%). Real-world experiments further validated its practicality in logistics scenarios.
+      <div class="pub-links">
+        <a class="pub-link-button" href="https://arxiv.org/abs/2605.13428" target="_blank" rel="noopener noreferrer">Paper</a>
       </div>
-    </details>
+      <details>
+        <summary class="pub-abstract-toggle">Abstract</summary>
+        <div class="pub-abstract">
+          Generalizing robotic manipulation across object poses, viewpoints, and dynamic disturbances is difficult, especially with only a few demonstrations. End-to-end visuomotor policies are expressive but data-hungry, while planning and optimization satisfy explicit constraints but do not directly capture the interaction strategies demonstrated by humans. We propose Sliding into Distribution (SID), a structured framework that learns an object-centric motion field from canonicalized demonstrations to iteratively slide the system toward the demonstrated manifold and into the reliable operating region of a lightweight egocentric execution policy, mitigating out-of-distribution (OOD) execution. The motion field provides large corrective motions when far from the demonstration manifold and naturally vanishes near convergence, enabling robust reaching under substantial pose and viewpoint shifts. Within the reached regime, an egocentric policy trained with conditioned flow matching performs task-specific manipulation, supported by kinematically consistent point-cloud reprojection augmentation that preserves action–observation consistency. Across six real-world tasks, SID achieves approximately 90% success under OOD initializations with only two demonstrations, with under a 10% drop under distractors and external disturbances. Overall, SID provides a new paradigm for few-shot manipulation: explicitly managing distribution shift via online distribution recovery.
+        </div>
+      </details>
+    </div>
   </div>
-</div>
 
 
-<!-- Pub: ForceForm -->
-<div class="pub-entry">
-  <div class="pub-thumb">
-    <img src="images/forceform.png" alt="ForceForm" />
-  </div>
-  <div class="pub-text">
-    <div class="pub-title">ForceForm: Robotic Gripper Generation via Differentiable Force Closure Optimization</div>
-    <div class="pub-authors">
-      Haoran Huang, Ziyi Zheng, <strong>Yicheng Ma</strong>, Zhaohui Lin,  I-Ming Chen, and Huixu Dong&dagger;
+  <!-- Pub: FD-VLA -->
+  <div class="pub-entry">
+    <div class="pub-thumb">
+      <img src="images/FDVLA.png" alt="FD-VLA" />
     </div>
-    <div class="pub-venue">
-      <!-- IEEE/ASME Transactions on Mechatronics -->
-      <span class="venue-badge submitted">Submitted</span>
-    </div>
-    <details>
-      <summary class="pub-abstract-toggle">Abstract</summary>
-      <div class="pub-abstract">
-        Reliable manipulation in industrial settings critically depends on the geometric structure of task-specific robotic grippers. However, conventional manual design is prohibitively expensive and relies heavily on human experience, while current automated methods often lack strict physical constraints, leading to unreliable grasping. To address these challenges, we propose ForceForm, the first framework to leverage differentiable force-closure optimization for adaptive gripper geometry generation, enabling the systematic synthesis of highly stable designs. First, both objects and grippers are represented using truncated signed distance functions (TSDF) to enable fully differentiable contact kinematics. Second, we devise a composite energy function via a differentiable quadratic program. This representation unifies and generalizes both normal and shear (friction) stresses, allowing the direct optimization of robust wrench-space force closure. Third, to navigate the non-convex design landscape, MALA++, an enhanced Metropolis-Adjusted Langevin Algorithm, is introduced to successfully escape local minima and promote topological diversity. Extensive experiments demonstrate that our pipeline achieves 91.6% grasp success, 84.8% stability, and 84.9% robustness across thousands of object instances, outperforming the state-of-the-art Fit2Form baseline by 6.1%, 9.0%, and 11.2%, respectively. By bridging physically grounded modeling with generative AI, ForceForm provides promising pathways for future scalable and reliable gripper design.
+    <div class="pub-text">
+      <div class="pub-title">FD-VLA: Force-Distilled Vision-Language-Action Model for Contact-Rich Manipulation</div>
+      <div class="pub-authors">
+        Ruiteng Zhao, Wenshuo Wang, <strong>Yicheng Ma</strong>, Xiaocong Li, Francis E.H. Tay, Marcelo H. Ang Jr. and Haiyue Zhu&dagger;
       </div>
-    </details>
-  </div>
-</div>
-
-
-<!-- Pub: Gaussian Spotlight -->
-<div class="pub-entry">
-  <div class="pub-thumb">
-    <img src="images/guassian_exp.gif" alt="Gaussian Spotlight" />
-  </div>
-  <div class="pub-text">
-    <div class="pub-title">Gaussian Spotlight: Enhancing Visuomotor Policy Learning via Latent Spatial Keypoint Embedding</div>
-    <div class="pub-authors">
-      Mohan Liu*, <strong>Yicheng Ma*</strong>, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao, and Haiyue Zhu&dagger;
-    </div>
-    <div class="pub-venue">
-      <!-- IEEE Robotics and Automation Letters (RA-L) -->
-      <span class="venue-badge submitted">Submitted</span>
-    </div>
-    <details>
-      <summary class="pub-abstract-toggle">Abstract</summary>
-      <div class="pub-abstract">
-        Generative visuomotor policies rely heavily on the conditioning representation to guide the synthesis of accurate and stable control sequences. Yet, standard visual encoders produce high-dimensional embeddings that often lose fine-grained spatial information while retaining substantial redundancy. To address this bottleneck, we propose Gaussian Spotlight, designed to construct a latent spatial keypoint embedding that serves as a more precise and manipulation-aware conditioning signal. Gaussian Spotlight first generates a state-conditioned anisotropic Gaussian Attention Field that selectively amplifies spatial regions critical for interaction. It then transforms these enhanced regions into implicit, latent keypoint embeddings via an attention-guided skip-layer aggregation pathway. Extensive experiments across diverse real-world manipulation tasks and simulation benchmarks demonstrate that Gaussian Spotlight consistently enhances policy performance.
+      <div class="pub-venue">
+        International Conference on Robotics and Automation (ICRA), 2026
+        <span class="venue-badge accepted">Accepted</span>
       </div>
-    </details>
-  </div>
-</div>
-
-<!-- Pub: 3D-LOT -->
-<div class="pub-entry">
-  <div class="pub-thumb">
-    <img src="images/lot_exp.gif" alt="3D-LOT Policy" />
-  </div>
-  <div class="pub-text">
-    <div class="pub-title">3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation</div>
-    <div class="pub-authors">
-      <strong>Yicheng Ma*</strong>, Mohan Liu*, Chang Su, Ruiteng Zhao, Zhiping Lin, and Haiyue Zhu&dagger;
-    </div>
-    <div class="pub-venue">
-      <!-- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -->
-      <span class="venue-badge submitted">Submitted</span>
-    </div>
-    <details>
-      <summary class="pub-abstract-toggle">Abstract</summary>
-      <div class="pub-abstract">
-        Real-time efficiency is critical for visuomotor policy learning, as any delay in action generation can accumulate over sequential control steps. In this work, we introduce 3D-LOT Policy, a latent prototype-guided optimal transport flow-matching framework for effective single-step action generation. Our approach encodes 3D observations into a compact latent space that preserves task-relevant spatial information and induces prototype structures to serve as anchors for policy learning. Our experiments demonstrate that 3D-LOT achieves lower latency while maintaining or even surpassing baseline performance, offering a practical solution for fast and robust visuomotor policy learning.
+      <div class="pub-links">
+        <a class="pub-link-button" href="https://arxiv.org/abs/2602.02142" target="_blank" rel="noopener noreferrer">Paper</a>
       </div>
-    </details>
+      <details>
+        <summary class="pub-abstract-toggle">Abstract</summary>
+        <div class="pub-abstract">
+          Force sensing is a crucial modality for Vision-Language-Action (VLA) frameworks, as it enables fine-grained perception and dexterous manipulation in contact-rich tasks. We present Force-Distilled VLA (FD-VLA), a novel framework that integrates force awareness into contact-rich manipulation without relying on physical force sensors. The core of our approach is a Force Distillation Module (FDM), which distills force by mapping a learnable query token, conditioned on visual observations and robot states, into a predicted force token aligned with the latent representation of actual force signals. During inference, this distilled force token is injected into the pretrained VLM, enabling force-aware reasoning while preserving the integrity of its vision-language semantics. This design provides two key benefits: first, it allows practical deployment across a wide range of robots that lack expensive or fragile force-torque sensors, thereby reducing hardware cost and complexity; second, the FDM introduces an additional force-vision-state fusion prior to the VLM, which improves cross-modal alignment and enhances perception-action robustness in contact-rich scenarios. Surprisingly, our physical experiments show that the distilled force token outperforms direct sensor force measurements as well as other baselines, which highlights the effectiveness of this force-distilled VLA approach.
+        </div>
+      </details>
+    </div>
   </div>
-</div>
 
+
+  <!-- Pub: Bin-picking -->
+  <div class="pub-entry">
+    <div class="pub-thumb">
+      <img src="images/hybrid_figure.png" alt="Hybrid Gripper" />
+    </div>
+    <div class="pub-text">
+      <div class="pub-title">Construction of Bin-picking System for Logistic Application: A Hybrid Robotic Gripper and Vision-based Grasp Planning</div>
+      <div class="pub-authors">
+        Zhian Su, <strong>Yicheng Ma</strong>, Haotian Guo, and Huixu Dong&dagger;
+      </div>
+      <div class="pub-venue">
+        IEEE Robotics and Automation Letters (RA-L), 2025
+        <span class="venue-badge accepted">Accepted</span>
+      </div>
+      <div class="pub-links">
+        <a class="pub-link-button" href="https://ieeexplore.ieee.org/document/11063337" target="_blank" rel="noopener noreferrer">Paper</a>
+      </div>
+      <details>
+        <summary class="pub-abstract-toggle">Abstract</summary>
+        <div class="pub-abstract">
+          An autonomous bin-picking system for grasping various cluttered packages can significantly benefit logistics by reducing manual labor and streamlining processing. We propose a bin-picking system that includes a novel multi-mode hybrid gripper combining suction and pinch, and a corresponding vision-based grasp planning strategy based on unseen object instance segmentation. The system was evaluated in simulation achieving a 71.4% success rate, compared to suction (53.9%) and Hand-E (39.3%). Real-world experiments further validated its practicality in logistics scenarios.
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <h3 class="pub-subheading">Manuscripts Under Review</h3>
+
+  <!-- Pub: ForceForm -->
+  <div class="pub-entry">
+    <div class="pub-thumb">
+      <img src="images/forceform.png" alt="ForceForm" />
+    </div>
+    <div class="pub-text">
+      <div class="pub-title">ForceForm: Robotic Gripper Generation via Differentiable Force Closure Optimization</div>
+      <div class="pub-authors">
+        Haoran Huang, Ziyi Zheng, <strong>Yicheng Ma</strong>, Zhaohui Lin,  I-Ming Chen, and Huixu Dong&dagger;
+      </div>
+      <div class="pub-venue">
+        <!-- IEEE/ASME Transactions on Mechatronics -->
+        <span class="venue-badge submitted">Submitted</span>
+      </div>
+      <details>
+        <summary class="pub-abstract-toggle">Abstract</summary>
+        <div class="pub-abstract">
+          Reliable manipulation in industrial settings critically depends on the geometric structure of task-specific robotic grippers. However, conventional manual design is prohibitively expensive and relies heavily on human experience, while current automated methods often lack strict physical constraints, leading to unreliable grasping. To address these challenges, we propose ForceForm, the first framework to leverage differentiable force-closure optimization for adaptive gripper geometry generation, enabling the systematic synthesis of highly stable designs. First, both objects and grippers are represented using truncated signed distance functions (TSDF) to enable fully differentiable contact kinematics. Second, we devise a composite energy function via a differentiable quadratic program. This representation unifies and generalizes both normal and shear (friction) stresses, allowing the direct optimization of robust wrench-space force closure. Third, to navigate the non-convex design landscape, MALA++, an enhanced Metropolis-Adjusted Langevin Algorithm, is introduced to successfully escape local minima and promote topological diversity. Extensive experiments demonstrate that our pipeline achieves 91.6% grasp success, 84.8% stability, and 84.9% robustness across thousands of object instances, outperforming the state-of-the-art Fit2Form baseline by 6.1%, 9.0%, and 11.2%, respectively. By bridging physically grounded modeling with generative AI, ForceForm provides promising pathways for future scalable and reliable gripper design.
+        </div>
+      </details>
+    </div>
+  </div>
+
+
+  <!-- Pub: Gaussian Spotlight -->
+  <div class="pub-entry">
+    <div class="pub-thumb">
+      <img src="images/guassian_exp.gif" alt="Gaussian Spotlight" />
+    </div>
+    <div class="pub-text">
+      <div class="pub-title">Gaussian Spotlight: Enhancing Visuomotor Policy Learning via Latent Spatial Keypoint Embedding</div>
+      <div class="pub-authors">
+        Mohan Liu*, <strong>Yicheng Ma*</strong>, Chang Su, Zhiyuan Yang, Shijun Yan, Pey Yuen Tao, and Haiyue Zhu&dagger;
+      </div>
+      <div class="pub-venue">
+        <!-- IEEE Robotics and Automation Letters (RA-L) -->
+        <span class="venue-badge submitted">Submitted</span>
+      </div>
+      <details>
+        <summary class="pub-abstract-toggle">Abstract</summary>
+        <div class="pub-abstract">
+          Generative visuomotor policies rely heavily on the conditioning representation to guide the synthesis of accurate and stable control sequences. Yet, standard visual encoders produce high-dimensional embeddings that often lose fine-grained spatial information while retaining substantial redundancy. To address this bottleneck, we propose Gaussian Spotlight, designed to construct a latent spatial keypoint embedding that serves as a more precise and manipulation-aware conditioning signal. Gaussian Spotlight first generates a state-conditioned anisotropic Gaussian Attention Field that selectively amplifies spatial regions critical for interaction. It then transforms these enhanced regions into implicit, latent keypoint embeddings via an attention-guided skip-layer aggregation pathway. Extensive experiments across diverse real-world manipulation tasks and simulation benchmarks demonstrate that Gaussian Spotlight consistently enhances policy performance.
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- Pub: 3D-LOT -->
+  <div class="pub-entry">
+    <div class="pub-thumb">
+      <img src="images/lot_exp.gif" alt="3D-LOT Policy" />
+    </div>
+    <div class="pub-text">
+      <div class="pub-title">3D-LOT Policy: Latent Optimal Transport Flow Matching for One-Step Action Generation</div>
+      <div class="pub-authors">
+        <strong>Yicheng Ma*</strong>, Mohan Liu*, Chang Su, Ruiteng Zhao, Zhiping Lin, and Haiyue Zhu&dagger;
+      </div>
+      <div class="pub-venue">
+        <!-- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -->
+        <span class="venue-badge submitted">Submitted</span>
+      </div>
+      <details>
+        <summary class="pub-abstract-toggle">Abstract</summary>
+        <div class="pub-abstract">
+          Real-time efficiency is critical for visuomotor policy learning, as any delay in action generation can accumulate over sequential control steps. In this work, we introduce 3D-LOT Policy, a latent prototype-guided optimal transport flow-matching framework for effective single-step action generation. Our approach encodes 3D observations into a compact latent space that preserves task-relevant spatial information and induces prototype structures to serve as anchors for policy learning. Our experiments demonstrate that 3D-LOT achieves lower latency while maintaining or even surpassing baseline performance, offering a practical solution for fast and robust visuomotor policy learning.
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
 
 
 <!-- ==================== RESEARCH EXPERIENCE ==================== -->

@@ -619,3 +619,30 @@ blockquote {
     height: 110px;
   }
 }
+
+/* Publication subsections */
+.pub-note {
+  font-size: 0.85em;
+  color: var(--color-text-muted);
+  margin-top: -4px;
+  margin-bottom: 20px;
+}
+
+.pub-subheading {
+  font-size: 0.9em;
+  font-weight: 700;
+  color: var(--color-text);
+  text-transform: none;
+  letter-spacing: 0.01em;
+  margin: 26px 0 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.pub-subheading:first-of-type {
+  margin-top: 8px;
+}
+
+.pub-entry.manuscript {
+  opacity: 0.96;
+}
