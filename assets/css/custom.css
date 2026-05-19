@@ -368,6 +368,25 @@ li {
   color: var(--color-border);
 }
 
+
+.pub-text .pub-links a.pub-link-button {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 6px;
+  background: var(--color-tag-bg);
+  color: var(--color-accent);
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none !important;
+}
+
+.pub-text .pub-links a.pub-link-button:hover {
+  background: #dcecff;
+  color: var(--color-accent-hover);
+  text-decoration: none !important;
+}
+
+
 /* Venue badges */
 .venue-badge {
   display: inline-block;

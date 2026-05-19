@@ -40,8 +40,10 @@ redirect_from:
 
 <div class="interest-tags">
   <span class="tag">Robot Learning</span>
-  <span class="tag">Robot Manipulation</span>
-  <span class="tag">Sample-efficient Robot Learning Methods</span>
+  <span class="tag">Generalizable Robotic Manipulation</span>
+  <span class="tag">Sample-Efficient Imitation Learning</span>
+  <span class="tag">3D / Vision-Language Visuomotor Policy Learning</span>
+  <span class="tag">Contact-Rich Manipulation</span>
 </div>
 
 <!-- ==================== PUBLICATIONS ==================== -->
@@ -65,8 +67,11 @@ redirect_from:
       <strong>Yicheng Ma*</strong>, Wei Yu*, Zhian Su, Xidan Zhang, and Huixu Dong&dagger;
     </div>
     <div class="pub-venue">
-      Robotics: Science and Systems
+      Robotics: Science and Systems (RSS), 2026
       <span class="venue-badge accepted">Accepted</span>
+    </div>
+    <div class="pub-links">
+      <a class="pub-link-button" href="https://arxiv.org/abs/2605.13428" target="_blank" rel="noopener noreferrer">Paper</a>
     </div>
     <details>
       <summary class="pub-abstract-toggle">Abstract</summary>
@@ -89,8 +94,11 @@ redirect_from:
       Ruiteng Zhao, Wenshuo Wang, <strong>Yicheng Ma</strong>, Xiaocong Li, Francis E.H. Tay, Marcelo H. Ang Jr. and Haiyue Zhu&dagger;
     </div>
     <div class="pub-venue">
-      International Conference on Robotics and Automation (ICRA)
+      International Conference on Robotics and Automation (ICRA), 2026
       <span class="venue-badge accepted">Accepted</span>
+    </div>
+    <div class="pub-links">
+      <a class="pub-link-button" href="https://arxiv.org/abs/2602.02142" target="_blank" rel="noopener noreferrer">Paper</a>
     </div>
     <details>
       <summary class="pub-abstract-toggle">Abstract</summary>
@@ -113,8 +121,11 @@ redirect_from:
       Zhian Su, <strong>Yicheng Ma</strong>, Haotian Guo, and Huixu Dong&dagger;
     </div>
     <div class="pub-venue">
-      IEEE Robotics and Automation Letters (RA-L)
+      IEEE Robotics and Automation Letters (RA-L), 2025
       <span class="venue-badge accepted">Accepted</span>
+    </div>
+    <div class="pub-links">
+      <a class="pub-link-button" href="https://ieeexplore.ieee.org/document/11063337" target="_blank" rel="noopener noreferrer">Paper</a>
     </div>
     <details>
       <summary class="pub-abstract-toggle">Abstract</summary>
