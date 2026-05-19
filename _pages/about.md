@@ -42,7 +42,7 @@ redirect_from:
   <span class="tag">Robot Learning</span>
   <span class="tag">Generalizable Robotic Manipulation</span>
   <span class="tag">Sample-Efficient Imitation Learning</span>
-  <span class="tag">3D / Vision-Language Visuomotor Policy Learning</span>
+  <span class="tag">Visuomotor Policy Learning</span>
   <span class="tag">Contact-Rich Manipulation</span>
 </div>
 
