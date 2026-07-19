@@ -30,7 +30,7 @@ redirect_from:
 
 <!-- ==================== BIO ==================== -->
 <p>
-  My research focuses on robot learning for manipulation, with a particular interest in sample-efficient robot learning methods. Previously, I conducted research at the <a href="https://grasplab2022.github.io/">Grasp Lab</a> at Zhejiang University, where I worked on robot learning and manipulation. I am currently exploring PhD opportunities in robot learning and manipulation and welcome inquiries via email.
+  My research focuses on robot learning for manipulation, with a particular interest in sample-efficient robot learning methods. Previously, I conducted research at the <a href="https://grasplab2022.github.io/">Grasp Lab</a> at Zhejiang University. I am currently exploring PhD opportunities in robot learning and manipulation and welcome inquiries via email.
 </p>
 
 <!-- ==================== RESEARCH INTERESTS ==================== -->
