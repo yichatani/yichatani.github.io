@@ -30,7 +30,7 @@ redirect_from:
 
 <!-- ==================== BIO ==================== -->
 <p>
-  My research focuses on robot learning for manipulation, with a particular interest in sample-efficient robot learning methods. Previously, I conducted research at the <a href="https://grasplab2022.github.io/">Grasp Lab</a> at Zhejiang University, where I worked on robotic perception and grasping. I am currently exploring PhD opportunities in robot learning and manipulation and welcome inquiries via email.
+  My research focuses on robot learning for manipulation, with a particular interest in sample-efficient robot learning methods. Previously, I conducted research at the <a href="https://grasplab2022.github.io/">Grasp Lab</a> at Zhejiang University, where I worked on robot learning and manipulation. I am currently exploring PhD opportunities in robot learning and manipulation and welcome inquiries via email.
 </p>
 
 <!-- ==================== RESEARCH INTERESTS ==================== -->
@@ -41,7 +41,7 @@ redirect_from:
 <div class="interest-tags">
   <span class="tag">Robot Learning</span>
   <span class="tag">Generalizable Robotic Manipulation</span>
-  <span class="tag">Sample-Efficient Imitation Learning</span>
+  <span class="tag">Sample-Efficient Learning</span>
   <span class="tag">Visuomotor Policy Learning</span>
   <span class="tag">Contact-Rich Manipulation</span>
 </div>
@@ -217,12 +217,38 @@ redirect_from:
 
 <h2 class="section-heading">Research Experience</h2>
 
+
+<!-- ---- Grasp Lab ---- -->
+<div class="exp-block" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--color-border-light, #f0f0f5);">
+  <div class="exp-header">
+    <span class="exp-org">Grasp Lab, Zhejiang University</span>
+    <span class="exp-role">&mdash; Research Assistant &amp; Thesis</span>
+    <span class="exp-date">Oct. 2025 &ndash; Present</span>
+  </div>
+
+  {% comment %}
+  <div class="exp-topic">Research on Static and Dynamic Grasping for Warehousing and Logistics</div>
+  <div class="exp-desc">
+    <ul>
+      <li>Constructed a geometric grasping module based on GSNet, using graspness to measure points suitable for grasping and extracting local and global point cloud features for static grasp generation.</li>
+      <li>Built a dynamic tracking module using multi-threaded high-dimensional feature vectors and cosine similarity to achieve temporal correspondence between grasps across frames.</li>
+      <li>Established a robot motion control and path planning system based on ROS and MoveIt API for multidimensional control of the robotic arm.</li>
+      <li>Designed static and dynamic experiments validating the system's generalization ability for unknown object grasping in logistics scenarios.</li>
+    </ul>
+  </div>
+  <div class="exp-media">
+    <video src="images/dynamic_grasp.mp4" autoplay loop muted playsinline controls></video>
+  </div>
+  {% endcomment %}
+</div>
+
+
 <!-- ---- A*STAR ---- -->
 <div class="exp-block">
   <div class="exp-header">
     <span class="exp-org">A*STAR SIMTech ARM, Singapore</span>
     <span class="exp-role">&mdash; Research Intern</span>
-    <span class="exp-date">Sep 2024 &ndash; Dec 2025</span>
+    <span class="exp-date">Sep. 2024 &ndash; Dec. 2025</span>
   </div>
 
   {% comment %}
@@ -270,7 +296,7 @@ redirect_from:
   {% endcomment %}
 </div>
 
-<!-- ---- Grasp Lab ---- -->
+<!-- ---- Grasp Lab ----
 <div class="exp-block" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--color-border-light, #f0f0f5);">
   <div class="exp-header">
     <span class="exp-org">Grasp Lab, Zhejiang University</span>
@@ -292,4 +318,4 @@ redirect_from:
     <video src="images/dynamic_grasp.mp4" autoplay loop muted playsinline controls></video>
   </div>
   {% endcomment %}
-</div>
+</div> -->
