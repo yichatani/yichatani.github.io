@@ -219,7 +219,7 @@ redirect_from:
 
 
 <!-- ---- Grasp Lab ---- -->
-<div class="exp-block" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--color-border-light, #f0f0f5);">
+<div class="exp-block">
   <div class="exp-header">
     <span class="exp-org">Grasp Lab, Zhejiang University</span>
     <span class="exp-role">&mdash; Research Assistant</span>
@@ -244,7 +244,7 @@ redirect_from:
 
 
 <!-- ---- A*STAR ---- -->
-<div class="exp-block">
+<div class="exp-block" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--color-border-light, #f0f0f5);">
   <div class="exp-header">
     <span class="exp-org">A*STAR SIMTech ARM, Singapore</span>
     <span class="exp-role">&mdash; Research Intern</span>
