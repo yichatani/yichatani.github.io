@@ -18,7 +18,7 @@ redirect_from:
     <p class="profile-subtitle">
       M.Sc. in Machine Learning at <strong>Nanyang Technological University</strong>.<br>
       <!-- Research Intern at <a href="https://www.a-star.edu.sg/simtech/research/adaptive-robotics-and-mechatronics-(arm)">A*STAR SIMTech ARM</a>, Singapore.<br> -->
-      B.Eng. in Optoelectronic Information Engineering, <strong>Zhejiang University</strong>.
+      B.Eng. in Optoelectronic Information Engineering at <strong>Zhejiang University</strong>.
     </p>
     <div class="profile-links">
       <span class="email-text">Email: yichatma [at] gmail [dot] com</span>
